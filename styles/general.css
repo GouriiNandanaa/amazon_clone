@@ -1,0 +1,53 @@
+/* header  --  25 */
+
+:root {
+    --background-header-1: #131921;
+    --down-arrow-grey : rgb(167, 172, 178);
+    --regular: Amazon Ember, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+p,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+svg {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'regular';
+}
+input, select, option{
+    font-family: 'regular'
+}
+
+/* header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'regular';
+    src: url(/assets/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2);
+}
