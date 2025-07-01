@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/general.css"> 
     <link rel="stylesheet" href="styles/1-header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/2-main-sidebar.css">
+    <link rel="stylesheet" href="styles/3-main-right-section.css">
 </head>
 <body>
     <header>
@@ -99,42 +101,534 @@
                 <li><a href="#">MX Player</a></li>
                 <li><a href="#">Sell</a></li>
                 <li><a href="#">Bestsellers</a></li>
-                <li><a href="#">Prime <i class="fa fa-caret-down"></i></a></li>
                 <li><a href="#">Mobiles</a></li>
                 <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Prime<i class="fa fa-caret-down"></i></a></li>
                 <li><a href="#">Customer Service</a></li>
                 <li><a href="#">New Releases</a></li>
                 <li><a href="#">Fashion</a></li>
                 <li><a href="#">Amazon Pay</a></li>
                 <li><a href="#">Electronics</a></li>
-               <!--  <li><a href="#">Home & Kitchen</a></li> -->
+                <li><a href="#">Home & Kitchen</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">Car & Motorbike</a></li>
+                <li><a href="#">Books</a></li>
             </ul>
         </div>
     </header>
 
-    <div class="third-row">
-        <ul class="subcategory-nav">
-            <li><a href="#">Mobiles & Accessories</a></li>
-            <li><a href="#">Laptops & Accessories</a></li>
-            <li><a href="#">TV & Home Entertainment</a></li>
-            <li><a href="#">Audio</a></li>
-            <li><a href="#">Cameras</a></li>
-            <li><a href="#">Computer Peripherals</a></li>
-            <li><a href="#">Smart Technology</a></li>
-            <li><a href="#">Musical Instruments</a></li>
-            <li><a href="#">Office & Stationery</a></li>
-        </ul>
+    <div class="third-row subcategory-nav">
+        <div class="electronics-image">
+            <img src="https://m.media-amazon.com/images/G/31/img18/Electronics/Megamenu/Megamenu_Electronics_top._CB485947327_.png" alt="electronics-image">
+        </div>
+        <a href="#">Mobiles & Accessories</a>
+        <a href="#">Laptops & Accessories</a>
+        <a href="#">TV & Home Entertainment</a>
+        <a href="#">Audio</a>
+        <a href="#">Cameras</a>
+        <a href="#">Computer Peripherals</a>
+        <a href="#">Smart Technology</a>
+        <a href="#">Musical Instruments</a>
+        <a href="#">Office & Stationery</a>
     </div>
 
+
     <div class="forth-row">
-        <div>
-            <p>1-24 of 772 results</p>
+        <div class="first-forth">
+            <p>1-24 of 786 results</p>
         </div>
         <div class="forth-dropdown">
             <select name="forth-dropdown" id="forth-dropdown">
-                <option value="">Sort by: Bestselling</option>
+                <option value="">Sort by:&nbsp; Bestselling . 
+                </option>
             </select>
         </div>
     </div>
+
+    <main>
+        <div class="main-contents">
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="category main-heading">
+                        <p class="main-heading-name">Category</p>
+                        <ul class="sub-heading">
+                            <li>
+                                <a href="#">
+                                    <div class="left-arrow"></div> 
+                                    <span>Electronics</span>
+                                </a> 
+                            </li>
+                            <li><a href="#">Mobiles & Accessories</a></li>
+                            <li><a href="#">Mobile Accessories</a></li>
+                            <li><a href="#">Smartphones & Basic Mobiles</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="brands main-heading">
+                        <p class="main-heading-name">Brands</p>
+                        <ul class="sub-heading brands-list">
+                            <li>
+                                <a href="#">
+                                    <div class="left-arrow"></div> 
+                                    <span>Clear</span>
+                                </a> 
+                            </li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>Samsung</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>Apple</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>OnePlus</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>iQOO</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>boAt</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>realme</span></li>
+                            <li><input type="checkbox" name="brands" class="good"><i></i> <span>Redmi</span></li>
+                             
+                            <li class="see-more">
+                                <a href="#">
+                                    <div class="left-arrow"></div> 
+                                    <span>See more</span>
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="customer-review main-heading">
+                        <p class="main-heading-name">Customer Reviews</p>
+                        <div>
+                            <div></div>
+                            <span>& Up</span>
+                        </div>
+                    </div>
+
+                    <div class="item-condition main-heading">
+                        <p class="main-heading-name">Item Condition</p>
+                        <div class="item-condition-content">
+                            <ul>
+                            <li><span>New</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item-price main-heading">
+                        <p class="main-heading-name">Price</p>
+                        <ul>
+                            <li><span>&#8377;295 - &#8377;57,200+</span></li>
+                            <li>
+                                <div class="slide-container">
+                                    <input type="range" min="0" max="100" class="slider">
+                                    <input type="range" min="0" max="100" class="slider">
+                                </div>
+                                
+                                <button>Go</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="deals">
+                        <p class="main-heading-name">
+                            Deals & Discounts
+                        </p>
+                        <ul>
+                            <li><span>All Discounts</span></li>
+                            <li><span>Today's Deals</span></li> 
+                        </ul>
+                    </div>
+    
+                    <div class="pay main-heading">
+                        <p class="main-heading-name">
+                            Pay On Delivery
+                        </p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="pay" class="good"><span>Eligible for Pay On Delivery</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="availability main-heading">
+                        <p class="main-heading-name">
+                            Availability
+                        </p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="availability" class="good"><span>Include Out of Stock</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="discount main-heading">
+                        <p class="main-heading-name">
+                            Discount
+                        </p>
+                        <ul>
+                            <li><span>10% Off or more</span></li>
+                            <li><span>25% Off or more</span></li>
+                            <li><span>35% Off or more</span></li>
+                            <li><span>50% Off or more</span></li>
+                            <li><span>60% Off or more</span></li>
+                            <li><span>70% Off or more</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="seller main-heading">
+                        <p class="main-heading-name">Seller</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="seller" class="good">
+                                <span>UniqueClick</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="seller" class="good">
+                                <span>Unitech Retail</span>
+                            </li>
+                            <li class="see-more">
+                                <a href="#">
+                                    <div class="left-arrow"></div>
+                                    <span>See more</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new-arrivals">
+                        <p class="main-heading-name">New Arrivals</p>
+                        <ul>
+                            <li><span>Last 90 days</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+                <div class="sidebar-mid"></div>
+
+                <div class="sidebar-bottom"></div>
+            </div>
+
+
+            <!-- from here we are writing the code of the main section with phones  -->
+
+            <div class="right-section">
+                <div class="right-section-margin without-card">
+                    <div class="top-section">
+                        <h2>Results</h2>
+                        <div>
+                            <span>Check each product page for other buying options.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-section-margin with-card">
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <div class="rating-first-line">
+                                <div class="five-star">
+                                    <!-- for 5 star -->
+                                </div>
+                                <div class="da">
+                                    <!-- down arrow -->
+                                </div>
+                                <span class="count">
+                                    4,279
+                                </span></div>
+                                <span class="brought">5K+ bought in past month</span>
+                            </div>
+                            
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>6,499</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;9,999</span>
+                                <span>(35% off)</span>
+                            </div>
+                            <div class="discount-main">
+                                <span>Up to 5% back with Amazon Pay…</span>
+                            </div>
+                            <div class="prime-icon"> 
+                                    <div class="prime-icon-image">
+                                        <!-- icon -->
+                                    </div>
+                                    <div class="second-line">
+                                        <span>FREE delivery</span>
+                                        <span>Thu, 3 Jul</span>
+                                    </div>
+                                </div>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>  
+
+
+
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL320_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents">
+                                <div class="contents-heading">
+                                    <a href=""><span>
+                                        Samsung Original 25W Type-C Travel Adaptor Without Cable, White
+                                    </span></a>
+                                </div>
+                                <div class="rating">
+                                    <span class="five-star">
+                                        <!-- for 5 star -->
+                                    </span>
+                                    <span>
+                                        <!-- down arrow -->
+                                    </span>
+                                    <span>
+                                        39,195
+                                    </span>
+                                    <span>10K+ bought in past month</span>
+
+                                </div>
+                                
+                                <div class="content-price">
+                                    <span>&#8377;</span>
+                                    <span>999</span>
+                                    <span>M.R.P:</span>
+                                    <span>&#8377;1,699</span>
+                                    <span>(41% off)</span>
+                                </div>
+                                <!-- <div class="discount-main">
+                                    <span>Up to 5% back with Amazon Pay…</span>
+                                </div> -->
+                                <div class="prime-icon"> 
+                                    <div class="prime-icon-image">
+                                        <!-- icon -->
+                                    </div>
+                                    <div class="second-line">
+                                        <span>FREE delivery</span>
+                                        <span>Thu, 3 Jul</span>
+                                    </div>
+                                </div>
+                                <div class="button-container">
+                                    <button class="btn add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL320_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                     Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <span class="five-star">
+                                    <!-- for 5 star -->
+                                </span>
+                                <span>
+                                    <!-- down arrow -->
+                                </span>
+                                <span>
+                                    11,035
+                                </span>
+                                <span>5K+ bought in past month</span>
+
+                            </div>
+                            
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>16,999</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;24,499</span>
+                                <span>(31% off)</span>
+                            </div>
+                            <div class="discount-main">
+                                <span>Save extra with No Cost EMI</span>
+                            </div>
+                            <div class="prime-icon">
+                                
+                                <div class="prime-icon-image">
+                                    <!-- icon -->
+                                </div>
+                                <div class="second-line">
+                                    <span>FREE delivery</span>
+                                    <span>Thu, 3 Jul</span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL320_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung Original 25W Type-C Travel Adaptor Without Cable, Black
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <span class="five-star">
+                                    <!-- for 5 star -->
+                                </span>
+                                <span>
+                                    <!-- down arrow -->
+                                </span>
+                                <span>
+                                    39,195
+                                </span>
+                                <span>8K+ bought in past month</span>
+                            </div>
+                           
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>999</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;1,699</span>
+                                <span>(41% off)</span>
+                            </div>
+                            <!-- <div class="discount-main">
+                                <span>Up to 5% back with Amazon Pay…</span>
+                            </div> -->
+                            <div class="prime-icon">
+                                <!-- icon -->
+                            </div>
+                            <div class="delivery">
+                                <span>FREE delivery</span>
+                                <span>Thu, 3 Jul</span>
+                            </div>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/31R6RP26dzL._SY300_SX300_QL70_FMwebp_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung EVO Plus 128GB Micro SDXC w/SD Adaptor, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card, MB-MC128SA/IN
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <span class="five-star">
+                                    <!-- for 5 star -->
+                                </span>
+                                <span>
+                                    <!-- down arrow -->
+                                </span>
+                                <span>
+                                    5,855
+                                </span>
+                                <span>5K+ bought in past month</span>
+
+                            </div>
+                           
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>1,059</span> 
+                                <div>
+                                    <span>M.R.P:</span>
+                                    <span>&#8377;2,699</span>
+                                    <span>(61% off)</span>
+                                </div>
+                            </div>
+                            <!-- <div class="discount-main">
+                                <span>Up to 5% back with Amazon Pay…</span>
+                            </div> -->
+                            <div class="prime-icon">
+                                <!-- icon -->
+                            </div>
+                            <div class="delivery">
+                                <span>FREE delivery</span>
+                                <span>Thu, 3 Jul</span>
+                            </div>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="each-card">
+                        <div class="img">
+                            <img src="https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL320_.jpg" alt="Samsung Galaxy M05 ">
+                        </div>
+                        <div class="contents">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <span class="five-star">
+                                    <!-- for 5 star -->
+                                </span>
+                                <span>
+                                    <!-- down arrow -->
+                                </span>
+                                <span>
+                                    1,251
+                                </span>
+                                <span>4K+ bought in past month</span>
+
+                            </div>
+                           
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>10,499</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;15,499</span>
+                                <span>(32% off)</span>
+                            </div>
+                            <div class="discount-main">
+                                <span>Up to 5% back with Amazon Pay…</span>
+                            </div>
+                            <div class="prime-icon">
+                                <!-- icon -->
+                            </div>
+                            <div class="delivery">
+                                <span>FREE delivery</span>
+                                <span>Thu, 3 Jul</span>
+                            </div>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-</html>
+    

@@ -1,0 +1,263 @@
+:root {
+    --regular: Amazon Ember, Arial, sans-serif;
+    --background-header-1: #131921;
+    --down-arrow-grey: rgb(167, 172, 178);
+    --amazon-orange: rgb(240, 136, 4);
+    --heading-black: rgb(15, 17, 17);
+    --amazon-blue: rgb(33, , 98, 161);
+    --light-font-grey: rgb(86, 89, 89);
+    --amazon-yellow: #ffd814;
+}
+
+.right-section {
+    color: var(--heading-black);
+    width: calc(0.75 * (100vw - 28px));
+    /* min-width: 747px; */
+    max-width: 1347px;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* need to change the code here */
+
+
+}
+
+.right-section-margin {
+    margin: 0 -4px 0 -4px;
+
+}
+
+.top-section {
+    padding: 0 4px 0 4px;
+    margin-bottom: 4px;
+}
+.top-section div{
+    height: 20px;
+}
+
+.top-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+}
+
+.top-section span {
+    color: var(--light-font-grey);
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    height: 18px;
+    /* margin-bottom: 4px; */
+}
+
+.with-card {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: auto;
+}
+
+.each-card {
+    grid-column: span 4;
+    /* background-color: #13707c; */
+    margin: 0 4px;
+    border: 1px solid rgb(245, 245, 245);
+    padding: 0px 8px 8px 8px;
+}
+
+.each-card .img {
+    background-color: rgb(248,248,248);
+
+    width: auto;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 8px;
+
+}
+
+.each-card .img img {
+    /* height: 100%;
+    height */
+    height: 100%;
+    margin: auto auto;
+
+}
+
+/* contents */
+
+
+.contents-heading {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    /* text-rendering: optimizeLegibility; */
+    line-clamp: 4;
+}
+
+.contents-heading span{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating{
+    padding-top: 4px;
+}
+
+.rating .five-star{
+    display: inline-block;
+    width: 80px;
+    height: 18px;
+    background-image: url(/assets/images/icons-star.png);
+    background-position: -210px -468px;
+    background-size: 512px 512px;
+
+    align-self: self-end;
+}
+
+.rating .da{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/assets/images/icons-star.png);
+    background-position: -429px -357px;
+    background-size: 512px 512px;
+}
+
+.rating .count{
+    font-size: 14px;
+    line-height: 20px;
+    
+    padding-left: 3px;
+}
+
+.rating .brought{
+    color: var(--light-font-grey); 
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+.rating .rating-first-line{
+    display: flex;
+    align-items: center;
+}
+
+body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(1){
+    font-size: 13px;
+    
+    position: relative;
+    top: -10px;
+    left:px;
+    /* top: -73em; */
+
+    
+
+}
+body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(2){
+    font-size: 28px;
+    position: relative;
+    left: -4.25px;
+   
+}
+
+body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(3){
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--light-font-grey);
+    position: relative;
+    left: -4.75px;
+}
+
+body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(4){
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--light-font-grey);
+    text-decoration: line-through;
+    position: relative;
+    left: -5.25px;
+}
+
+body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(5){
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    left: -0.5px;
+}
+
+.content-price{
+    margin-top: 8px;
+
+}
+
+.content-price div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.discount-main{
+    display: flex;
+    align-items: center;
+}
+
+.discount-main span{
+    /* background-color: red; */
+    display: inline-block;
+    height: 1.3em;
+    width: 100%;
+    white-space: normal;
+    font-size: 14px !important;
+    color: var(--light-font-grey);
+    /* margin-top: -52px; */
+}
+.prime-icon{
+    margin-top: 14px;
+}
+.prime-icon .prime-icon-image{
+    width: 53px;
+    height: 15px;
+    background-image: url(/assets/images/prime.png);
+    background-position: -181px -128px;    background-size: 512px 256px;
+    background-repeat: no-repeat;
+
+    
+}
+.prime-icon .second-line{
+    height: 20px;
+}
+
+.prime-icon .second-line span{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.prime-icon .second-line span:nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.button-container{
+    padding-top: 4px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.button-container button{
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.3px;
+    padding: 10px 13px;
+    background-color: var(--amazon-yellow);
+    border-radius: 36px;
+    border: none;
+
+    
+   
+}

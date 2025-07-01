@@ -1,0 +1,364 @@
+:root {
+    --regular: Amazon Ember, Arial, sans-serif;
+    --background-header-1: #131921;
+    --down-arrow-grey: rgb(167, 172, 178);
+    --amazon-orange: rgb(240, 136, 4);
+    --heading-black: rgb(15, 17, 17);
+    --amazon-blue: rgb(33, 98, 161);
+}
+
+
+.main-contents {
+    margin: 0 12px 0 12px;
+    padding: 14px 0 0 0;
+
+    display: flex;
+    justify-content: end;
+}
+
+.sidebar {
+    display: block;
+    width: calc(.25 * (100vw - 28px));
+    /* min-width: 249px; */
+    max-width: 449px;
+    /* padding: 0 4px 0 4px;  */
+    /* this is the initial code */
+    /* need to change the code here
+    dont forget
+    */
+    padding: 0 4px 0 4px;
+}
+
+.main-heading-name {
+    color: var(--heading-black);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    /* background-color: #fc0000; */
+    word-break: break-word;
+    margin-bottom: 8px;
+}
+
+.left-arrow {
+    width: 6px;
+    height: 10px;
+    background: url(https://m.media-amazon.com/images/S/sash/5wejH04P3ogfQ-4.svg);
+    display: inline-block;
+}
+
+body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(1) {
+    margin-left: 0;
+    font-size: 14px;
+}
+
+body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2) {
+    margin-left: 12px;
+}
+
+body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a {
+    font-weight: 700;
+    letter-spacing: 0.3px;
+
+
+
+}
+
+.main-heading .sub-heading {
+    margin: 0 0 16px 0;
+}
+
+.main-heading .sub-heading li {
+    margin: 0 0 4px 24px;
+    height: 16px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.main-heading ul li a {
+    color: var(--heading-black);
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.main-heading .brands-list li {
+    margin: 0 0 4px 0px;
+}
+
+
+
+/* checkbox */
+.brands ul .see-more a {
+    display: flex;
+    align-items: center;
+}
+
+
+.brands ul .see-more a div {
+    background: none;
+    transform: rotate(45deg);
+
+    margin: -5px 5.390px 3px 2px;
+    border: solid #0f1111;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    opacity: 1;
+    height: 7px;
+    width: 7px;
+    display: inline-block;
+
+    transform: translateY(2px) rotate(45deg);
+
+}
+
+.brands ul .see-more a {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+.brands ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+  
+.brands ul .see-more span {
+    color: var(--amazon-blue);
+}
+body > main > div > div > div.sidebar-top > div.brands.main-heading > ul > li:nth-child(2) > span{
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+.customer-review {
+    margin: 0 0 20px 0;
+}
+
+.customer-review div {
+
+
+    /* background-size: 512px 512px; */
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    display: flex;
+    align-items: center;
+    column-gap: 3.9px;
+    height: 18px;
+
+}
+
+.customer-review div div {
+    height: 22px;
+    width: 95px;
+    /* background-color: gold; */
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/icons-star.png);
+    background-size: 512px 512px;
+    background-position: -21px -488px;
+
+    margin-right: 1px;
+}
+
+.customer-review div span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.good {
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+/* item condition */
+
+.item-condition div ul li {
+    height: 16px;
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.item-condition div ul li span {
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+/* item price */
+.item-price{
+    margin-bottom: 12px;
+}
+
+
+.item-price .main-heading-name {
+    margin-bottom: 4px;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1) {
+    padding: 4px 0 2px 0;
+    margin-bottom: 4px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+
+}
+
+.item-price ul li span {
+    font-size: 14px;
+    line-height: 16px;
+    /* height: 18px; */
+    font-weight: 600;
+    word-spacing: 1px;
+    /* letter-spacing: 0.3px; */
+}
+
+.item-price ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(2) {
+    height: auto;
+    display: flex;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    /* need to change the code here */
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+/* deals */
+
+.deals ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.deals ul li {
+    height: 16px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.deals ul li:nth-child(2) {
+
+    margin-bottom: 16px;
+}
+
+.pay ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.pay ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.availability ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.availability ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.discount ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.discount ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.discount ul:last-child {
+    margin-bottom: 16px;
+
+}
+
+/* seller */
+
+.seller ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.seller ul li span {
+    font-size: 14px;
+    line-height: 16px;
+    /* margin-left: 6px; */
+}
+
+
+
+.seller ul .see-more a {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.seller ul .see-more a div {
+    background: none;
+    transform: translateY(2px) rotate(45deg);
+    margin: -5px 5.39px 3px 2px;
+    border: solid #0f1111;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    opacity: 1;
+    height: 7px;
+    width: 7px;
+    display: inline-block;
+}
+
+.seller ul .see-more span {
+    color: var(--amazon-blue);
+}
+
+.seller ul:last-child {
+    margin-bottom: 16px;
+}
+
+.new-arrivals ul li span {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.new-arrivals ul li {
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
