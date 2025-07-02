@@ -348,7 +348,7 @@ header .header2 ul li a i {
 }
 
 /* prime with arrow */
-body>header>div.header2>ul>li:nth-child(7) {
+body>header>div.header2>ul>li:nth-child(6) {
     padding-right: 5px;
 }
 

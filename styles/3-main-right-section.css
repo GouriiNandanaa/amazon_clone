@@ -61,7 +61,9 @@
     /* background-color: #13707c; */
     margin: 0 4px;
     border: 1px solid rgb(245, 245, 245);
-    padding: 0px 8px 8px 8px;
+    padding: 0px 8px 12px 8px;
+
+    margin-bottom: 8px;
 }
 
 .each-card .img {
@@ -72,15 +74,24 @@
     display: flex;
     justify-content: center;
 
+    /* margin-left: 8px;
+    margin-right: 8px; */
     margin-bottom: 8px;
+    height: auto;
 
 }
 
 .each-card .img img {
     /* height: 100%;
     height */
-    height: 100%;
-    margin: auto auto;
+
+    /* height: 100%; */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+
 
 }
 
@@ -245,7 +256,7 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 .button-container{
     padding-top: 4px;
     height: 40px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 .button-container button{
