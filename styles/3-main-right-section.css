@@ -8,7 +8,7 @@
     --light-font-grey: rgb(86, 89, 89);
     --amazon-yellow: #ffd814;
 }
-
+           
 .right-section {
     color: var(--heading-black);
     width: calc(0.75 * (100vw - 28px));
@@ -21,6 +21,10 @@
 
 }
 
+.right-section a span{
+    color: var(--heading-black);
+}
+            
 .right-section-margin {
     margin: 0 -4px 0 -4px;
 
@@ -64,6 +68,7 @@
     padding: 0px 8px 12px 8px;
 
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .each-card .img {
@@ -91,6 +96,8 @@
     height: auto;
     margin: 0 auto;
     object-fit: contain;
+    background: rgb(248,248,248);
+    /* background-color: gray; */
 
 
 }
@@ -157,13 +164,15 @@
     display: flex;
     align-items: center;
 }
-
+.content-price{
+    max-height: 55px;
+}
 body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(1){
     font-size: 13px;
     
     position: relative;
     top: -10px;
-    left:px;
+    left:0;
     /* top: -73em; */
 
     
@@ -196,8 +205,8 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(5){
     font-size: 14px;
     line-height: 20px;
-    position: relative;
-    left: -0.5px;
+    /* position: relative;
+    left: 1px; */
 }
 
 .content-price{
@@ -213,6 +222,7 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 .discount-main{
     display: flex;
     align-items: center;
+    margin-bottom: 13.453px;
 }
 
 .discount-main span{
@@ -226,7 +236,7 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
     /* margin-top: -52px; */
 }
 .prime-icon{
-    margin-top: 14px;
+    margin-top: 9px;
 }
 .prime-icon .prime-icon-image{
     width: 53px;
@@ -239,6 +249,11 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 }
 .prime-icon .second-line{
     height: 20px;
+    margin-top: 2.453px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
 }
 
 .prime-icon .second-line span{
@@ -262,9 +277,9 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 .button-container button{
     margin-top: 4px;
     font-size: 13px;
-    line-height: 13px;
+    line-height: 30px;
     letter-spacing: 0.3px;
-    padding: 10px 13px;
+    padding: 1px 13px 1px 13px;
     background-color: var(--amazon-yellow);
     border-radius: 36px;
     border: none;
