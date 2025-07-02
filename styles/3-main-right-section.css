@@ -8,7 +8,7 @@
     --light-font-grey: rgb(86, 89, 89);
     --amazon-yellow: #ffd814;
 }
-
+           
 .right-section {
     color: var(--heading-black);
     width: calc(0.75 * (100vw - 28px));
@@ -68,6 +68,7 @@
     padding: 0px 8px 12px 8px;
 
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .each-card .img {
@@ -95,6 +96,7 @@
     height: auto;
     margin: 0 auto;
     object-fit: contain;
+    background: rgb(248,248,248);
     /* background-color: gray; */
 
 
@@ -162,13 +164,15 @@
     display: flex;
     align-items: center;
 }
-
+.content-price{
+    max-height: 55px;
+}
 body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(1){
     font-size: 13px;
     
     position: relative;
-    top: -9px;
-    left:px;
+    top: -10px;
+    left:0;
     /* top: -73em; */
 
     
@@ -201,8 +205,8 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(5){
     font-size: 14px;
     line-height: 20px;
-    position: relative;
-    left: -0.5px;
+    /* position: relative;
+    left: 1px; */
 }
 
 .content-price{

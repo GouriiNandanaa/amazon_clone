@@ -352,7 +352,7 @@ header .header2 {
     column-gap: 5px;
     padding: 8px 9px;
 }
-
+ 
 .category-nav .first-all a {
     /* this is the region with bold font */
     font-weight: 700;
@@ -363,7 +363,7 @@ header .header2 {
     padding: 8px 10px;
     margin: 5px 0 6px 0;
     /* height: 12px; */
-}
+}   
 
 header .header2 ul li a {
     display: flex;
