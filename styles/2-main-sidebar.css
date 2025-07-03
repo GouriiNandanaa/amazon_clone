@@ -51,16 +51,16 @@
     display: inline-block;
 }
 
-body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(1) {
+body > div.laptop-html > main > div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(1) {
     margin-left: 0;
     font-size: 14px;
 }
 
-body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2) {
+body > div.laptop-html > main > div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2) {
     margin-left: 12px;
 }
 
-body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a {
+body > div.laptop-html > main > div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a {
     /* font-weight: 700;
     letter-spacing: 0.3px; */
     /* changed the font here */
@@ -136,7 +136,7 @@ body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a
 .brands ul .see-more span {
     color: var(--amazon-blue);
 }
-body > main > div > div > div.sidebar-top > div.brands.main-heading > ul > li:nth-child(2) > span{
+body > div.laptop-html > main > div > div > div.sidebar-top > div.brands.main-heading > ul > li:nth-child(2) > span{
     /* letter-spacing: 0.3px;
     font-weight: 600; */
     /* changed the font here */
@@ -222,7 +222,7 @@ body > main > div > div > div.sidebar-top > div.brands.main-heading > ul > li:nt
 }
 
 
-body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1) {
+body > div.laptop-html > main >div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1) {
     padding: 4px 0 2px 0;
     margin-bottom: 4px;
     height: 22px;
@@ -250,7 +250,7 @@ body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1)
 
 }
 
-body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(2) {
+body > div.laptop-html > main >div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(2) {
     height: auto;
     display: flex;
     padding-bottom: 2px;
