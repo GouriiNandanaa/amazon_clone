@@ -361,7 +361,7 @@ header .header2 ul li a i {
 }
 
 /* prime with arrow */
-body>header>div.header2>ul>li:nth-child(6) {
+body > div.laptop-html > header > div.header2 > ul > li:nth-child(6){    
     padding-right: 5px;
 }
 
@@ -464,7 +464,7 @@ body>header>div.header2>ul>li:nth-child(6) {
     
 }
 
-body > div.forth-row > div.with-i-icon > div:nth-child(2){
+body > div.laptop-html > div.forth-row > div.with-i-icon > div:nth-child(2){
     
     width: 10px;
     height: 8px;
