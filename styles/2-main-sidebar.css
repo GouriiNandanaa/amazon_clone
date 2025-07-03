@@ -15,11 +15,11 @@
     display: flex;
     justify-content: end;
 }
-
+          
 .sidebar {
     display: block;
     width: calc(.25 * (100vw - 28px));
-    /* min-width: 249px; */
+    min-width: 249px;
     max-width: 449px;
     /* padding: 0 4px 0 4px;  */
     /* this is the initial code */

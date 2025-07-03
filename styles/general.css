@@ -9,7 +9,9 @@
     --amazon-blue: rgb(33, 98, 161);
 }
 
-
+.mobile-html{
+    display: none;
+}
 * {
     box-sizing: border-box;
 }
