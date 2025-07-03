@@ -1,3 +1,15 @@
+:root {
+    --regular: Amazon Ember, Arial, sans-serif;
+    --background-header-1: #131921;
+    --down-arrow-grey: rgb(167, 172, 178);
+    --amazon-orange: rgb(240, 136, 4);
+    --heading-black: rgb(15, 17, 17);
+    --amazon-blue: rgb(33, 98, 161);
+    --light-font-grey: rgb(86, 89, 89);
+    --amazon-yellow: #ffd814;
+}
+   
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -5,16 +17,15 @@
     margin-top: 8px;
     margin-bottom: 16px;
 
-     
-    
+    /* overflow: hidden; */
 }
-
     
 .page-nav {
     display: flex;
     border-radius: 8px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
 } 
+
 .page-nav .prev svg{
     height: 12px;
     width: 8px;
@@ -105,6 +116,138 @@
     border-top: 1px solid #d5d9d9;
     border-bottom: 1px solid #d5d9d9;
 }
+
+
+
+/* need help */
+.need-help{
+    /* padding-left: 4px; */
+    padding-right: 4px;
+
+    padding-top: 16px;
+    margin-bottom: 16px;
+
+    overflow: hidden;
+
+}
+
+.need-help .need-help-heading{
+    margin-bottom: 8px;
+}
+
+.need-help .need-help-heading h2{
+    font-size: 20px;
+    line-height: 28px;   
+    font-family: 'bold';  
+}
+
+.need-help .need-help-content a{
+    font-size: 14px;
+    line-height: 20px; 
+    /* vertical-align: center; */
+    color: var(--amazon-blue);
+}
+.need-help .need-help-content span{
+    font-size: 14px;
+    line-height: 20px; 
+}
+
+.need-help .need-help-content{
+    margin-bottom: 12px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    column-gap: 3.5px; 
+    position: relative;
+    top: -1px;
+}
+
+
+.recommendations{
+    height: 124px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 0 20px;
+
+    margin: 19px 0 20px 0;
+
+}
+
+.recommendations .first-heading{
+    color: #444;
+    font-weight: 400;
+    padding: 10px 10px 3px 10px;
+    white-space: nowrap;
+
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.recommendations .rec-span span{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+    float: left;
+    font-size: 13px;
+    line-height: 75px;
+    font-family: 'italic';
+    position: relative;
+    top: 1px;
+}
+
+.recommendations .rec-span{
+    padding-bottom: 14px;
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  
+
+}
+
+ .right-rec{
+    padding: 0 20px 0 40px;
+    margin-top: 18px;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 18px;
+   
+    
+    
+}
+
+.right-rec .arrow{
+    color: #0066c0;
+    font-size: 11px;
+    margin-top: -2px;
+
+    padding-right: 8px;
+    display: inline;
+    font-weight: 700;
+    line-height: 11px;
+    vertical-align: top;
+}
+.right-rec .rec-link{
+    font-size: 10px;
+    width: 80px;
+    display: inline-block;
+    font-family: 'bold';
+    line-height: 11px;
+    vertical-align: top;
+
+}
+.right-rec .rec-link a{
+    display: inline-block;
+    color: rgb(33, 98, 161);
+    font-size: 10px;
+    line-height: 11px;
+    font-family: 'bold';
+    width: 90%;
+}
+
 
 
  

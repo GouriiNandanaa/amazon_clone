@@ -33,8 +33,12 @@
     color: var(--heading-black);
     font-size: 14px;
     line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    /* font-weight: 700;
+    letter-spacing: 0.3px; */
+    /* changed the font here */
+
+    font-family: 'bold';
+
     /* background-color: #fc0000; */
     word-break: break-word;
     margin-bottom: 8px;
@@ -57,8 +61,11 @@ body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2) {
 }
 
 body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a {
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    /* font-weight: 700;
+    letter-spacing: 0.3px; */
+    /* changed the font here */
+
+    font-family: 'bold';
 
 
 
@@ -100,7 +107,7 @@ body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a
 .brands ul .see-more a div {
     background: none;
     transform: rotate(45deg);
-
+   
     margin: -5px 5.390px 3px 2px;
     border: solid #0f1111;
     border-width: 0 2px 2px 0;
@@ -124,14 +131,17 @@ body>main>div>div>div.sidebar-top>div.category.main-heading>ul>li:nth-child(2)>a
     font-size: 14px;
     line-height: 16px;
 }
-
+              
   
 .brands ul .see-more span {
     color: var(--amazon-blue);
 }
 body > main > div > div > div.sidebar-top > div.brands.main-heading > ul > li:nth-child(2) > span{
-    letter-spacing: 0.3px;
-    font-weight: 600;
+    /* letter-spacing: 0.3px;
+    font-weight: 600; */
+    /* changed the font here */
+
+    font-family: 'bold';
 }
 .customer-review {
     margin: 0 0 20px 0;
@@ -225,8 +235,11 @@ body>main>div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1)
     font-size: 14px;
     line-height: 16px;
     /* height: 18px; */
-    font-weight: 600;
-    word-spacing: 1px;
+    /* font-weight: 600;
+    word-spacing: 1px; */
+    /* changed the font here */
+
+    font-family: 'bold';
     /* letter-spacing: 0.3px; */
 }
 

@@ -8,9 +8,7 @@
 }
 
 
-body {
-    padding-bottom: 2000px;
-}
+        
 
 header{
     /* position: relative; */
@@ -202,7 +200,11 @@ header .right-header .language .flag-div {
 header .right-header .language .lang-dropdown .select {
     font-size: 14px;
     line-height: 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    /* changed the font here */
+
+    font-family: 'bold';
+    
     color: white;
     background: none;
     border: none;
@@ -236,8 +238,11 @@ header .right-header .language  i {
     font-size: 14px;
     line-height: 15px;
     height: 15px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    /* font-weight: 700;
+    letter-spacing: 0.3px; */
+    /* changed the font here */
+
+    font-family: 'bold';
 }
 
 .two-line-text .second-line i {
@@ -297,7 +302,9 @@ header .right-header .cart .cart-image-holder span {
     width: 19px;
     padding: 0px 6px 15px 13px;
 
-    font-weight: 700;
+    /* changed the font here */
+
+    font-family: 'bold';
 
     position: absolute;
     left: 5px;
@@ -307,8 +314,10 @@ header .right-header .cart .cart-image-holder span {
 header .right-header .cart .cart-text {
     font-size: 14px;
     line-height: 15px;
-    font-weight: 700px;
-    letter-spacing: 0.2px;
+    /* font-weight: 700px;
+    letter-spacing: 0.2px; */
+    /* changed the font here */
+    font-family: 'bold';
 
 }
 
@@ -355,8 +364,8 @@ header .header2 {
  
 .category-nav .first-all a {
     /* this is the region with bold font */
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    /* changed the font here */
+    font-family: 'bold';
 }
 
 .category-nav li {
@@ -391,7 +400,7 @@ body>header>div.header2>ul>li:nth-child(6) {
     height: 50px;
     border-top: 1px solid rgba(0, 0, 0, .17);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 0 1px #ddd;
+    /* box-shadow: 0 1px 1px -1px #ddd; */
     display: flex;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
