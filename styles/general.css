@@ -9,7 +9,9 @@
     --amazon-blue: rgb(33, 98, 161);
 }
 
-
+.mobile-html{
+    display: none;
+}
 * {
     box-sizing: border-box;
 }
@@ -57,4 +59,19 @@ option {
 @font-face {
     font-family: 'regular';
     src: url(/assets/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2);
+}
+
+@font-face {
+    font-family: 'button-font';
+    src: url(/assets/font/pDxWAF1pBB0dzGB\ \(2\).woff2);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(/assets/font/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+    font-family: 'italic';
+    src: url(/assets/font/WOnTLzkiaEccV7F\ \(1\).woff2);
 }

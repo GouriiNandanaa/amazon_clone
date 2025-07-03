@@ -7,11 +7,6 @@
     --amazon-blue: rgb(33, 98, 161);
 }
 
-
-body {
-    padding-bottom: 2000px;
-}
-
 header{
     /* position: relative; */
     /* z-index: ; */
@@ -30,9 +25,7 @@ header .header1 {
     align-items: center;
     height: 60px;
     width: 100%;
-
     background-color: var(--background-header-1);
-
     color: white;
 }
 
@@ -42,7 +35,6 @@ header .header1 .logo {
     padding: 1px 8px 7px 17px;
     margin: 1px;
     height: 50px;
-
     display: flex;
 }
 
@@ -53,7 +45,6 @@ header .header1 .logo .logo-amazon {
     background: url(../assets/images/all-logo.png);
     background-position: -9px -125px;
     display: inline-block;
-
     background-repeat: repeat-x;
     color: rgb(33, 98, 161);
 }
@@ -63,7 +54,6 @@ header .header1 .logo .remaining-text {
     height: 14px;
     line-height: 14px;
     text-size-adjust: 100%;
-
     margin: 16.5px 0 0 1px;
 }
 
@@ -81,7 +71,6 @@ header .header1 .pincode .pincode-icon {
     height: 18px;
     background: url(/assets/images/all-logo.png);
     background-position: -71px -378px;
-
     margin-top: 8px;    
 }          
 
@@ -115,8 +104,6 @@ header .header1 .search-container {
     padding: 10px 0px 10px 0px;
     border-radius: 4px;
     flex: 1 1 auto;
-
-
     background-color: white;
 }
 
@@ -126,7 +113,6 @@ header .search-container .dropdown-div {
     border-left: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
-
     height: 40px !important;
     padding-left: 5px;
     border-radius: 4px 0 0 4px;
@@ -163,7 +149,6 @@ header .search-container .icon-container {
     background: rgb(254, 189, 105);
     background-image: url(/assets/images/all-logo.png);
     background-position: 2px -280px;
-
     margin-left: auto;
     border-radius: 0 4px 4px 0;
 }
@@ -179,13 +164,10 @@ header .search-container .icon-container {
 header .right-header .language {
     display: flex;
     align-items: center;
-
     width: 60.38px;
     padding: 6px 0px 7px 0;
     margin: 0 1px;
-
     white-space: nowrap;
-
 }
 
 header .right-header .language .flag-div {
@@ -194,7 +176,6 @@ header .right-header .language .flag-div {
     background-image: url(/assets/images/all-flags.png);
     background-position: 0px -166px;
     background-size: 194px 295px;
-
     padding-right: 2px;
     padding-bottom: 1px;
 }
@@ -202,7 +183,9 @@ header .right-header .language .flag-div {
 header .right-header .language .lang-dropdown .select {
     font-size: 14px;
     line-height: 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    /* changed the font here */
+    font-family: 'bold';
     color: white;
     background: none;
     border: none;
@@ -222,7 +205,6 @@ header .right-header .language  i {
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-
 }
 
 .two-line-text .first-line {
@@ -236,8 +218,10 @@ header .right-header .language  i {
     font-size: 14px;
     line-height: 15px;
     height: 15px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    /* font-weight: 700;
+    letter-spacing: 0.3px; */
+    /* changed the font here */
+    font-family: 'bold';
 }
 
 .two-line-text .second-line i {
@@ -286,7 +270,6 @@ header .right-header .cart .cart-image-holder .svg-cart {
     height: 26px;
     background-image: url(/assets/images/all-logo.png);
     background-position: -10px -340px;
-
     position: relative;
     top: -1px;
 }
@@ -296,9 +279,8 @@ header .right-header .cart .cart-image-holder span {
     height: 16px;
     width: 19px;
     padding: 0px 6px 15px 13px;
-
-    font-weight: 700;
-
+    /* changed the font here */
+    font-family: 'bold';
     position: absolute;
     left: 5px;
     top: -7px;
@@ -307,9 +289,10 @@ header .right-header .cart .cart-image-holder span {
 header .right-header .cart .cart-text {
     font-size: 14px;
     line-height: 15px;
-    font-weight: 700px;
-    letter-spacing: 0.2px;
-
+    /* font-weight: 700px;
+    letter-spacing: 0.2px; */
+    /* changed the font here */
+    font-family: 'bold';
 }
 
  /* header2 */
@@ -355,8 +338,8 @@ header .header2 {
  
 .category-nav .first-all a {
     /* this is the region with bold font */
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    /* changed the font here */
+    font-family: 'bold';
 }
 
 .category-nav li {
@@ -391,7 +374,7 @@ body>header>div.header2>ul>li:nth-child(6) {
     height: 50px;
     border-top: 1px solid rgba(0, 0, 0, .17);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 0 1px #ddd;
+    /* box-shadow: 0 1px 1px -1px #ddd; */
     display: flex;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;

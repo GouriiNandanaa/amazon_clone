@@ -4,7 +4,7 @@
     --down-arrow-grey: rgb(167, 172, 178);
     --amazon-orange: rgb(240, 136, 4);
     --heading-black: rgb(15, 17, 17);
-    --amazon-blue: rgb(33, , 98, 161);
+    --amazon-blue: rgb(33, 98, 161);
     --light-font-grey: rgb(86, 89, 89);
     --amazon-yellow: #ffd814;
 }
@@ -40,9 +40,11 @@
 
 .top-section h2 {
     font-size: 20px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 28px;
-    letter-spacing: 0.3px;
+    /* letter-spacing: 0.3px; */
+    /* changed the font here */
+    font-family: 'bold';
 }
 
 .top-section span {
@@ -99,7 +101,6 @@
     background: rgb(248,248,248);
     /* background-color: gray; */
 
-
 }
 
 /* contents */
@@ -137,6 +138,9 @@
     background-size: 512px 512px;
 
     align-self: self-end;
+    position: relative;
+    top: 1px;
+
 }
 
 .rating .da{
@@ -146,9 +150,13 @@
     background-image: url(/assets/images/icons-star.png);
     background-position: -429px -357px;
     background-size: 512px 512px;
-}
+
+    position: relative;
+    top: 1px;
+} 
 
 .rating .count{
+    color: var(--amazon-blue);
     font-size: 14px;
     line-height: 20px;
     
@@ -166,7 +174,7 @@
 }
 .content-price{
     max-height: 55px;
-}
+}  
 body > main > div > div.right-section > div.right-section-margin.with-card div.contents > div.content-price > span:nth-child(1){
     font-size: 13px;
     
@@ -245,11 +253,13 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
     background-position: -181px -128px;    background-size: 512px 256px;
     background-repeat: no-repeat;
 
-    
+    margin-top: 4px;
+    margin-bottom: 2.45px;
+       
 }
 .prime-icon .second-line{
     height: 20px;
-    margin-top: 2.453px;
+    /* margin-top: 2.453px; */
 
     display: flex;
     align-items: center;
@@ -258,14 +268,15 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 
 .prime-icon .second-line span{
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
 }
 
 .prime-icon .second-line span:nth-child(2){
     font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    line-height: 18px;
+    /* font-weight: 700;
+    letter-spacing: 0.3px; */
+    font-family: 'bold';
 }
 
 .button-container{
@@ -275,15 +286,16 @@ body > main > div > div.right-section > div.right-section-margin.with-card div.c
 }
 
 .button-container button{
+
+    font-family: 'button-font';
+
     margin-top: 4px;
     font-size: 13px;
     line-height: 30px;
-    letter-spacing: 0.3px;
+    
     padding: 1px 13px 1px 13px;
     background-color: var(--amazon-yellow);
     border-radius: 36px;
     border: none;
-
-    
-   
 }
+
