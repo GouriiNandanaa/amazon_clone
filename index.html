@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/mobile-styles/general.css">
     <link rel="stylesheet" href="styles/mobile-styles/mobile-header.css">
     <link rel="stylesheet" href="styles/mobile-styles/mobile-card.css">
+    <link rel="stylesheet" href="styles/mobile-styles/mobile-footer.css">
 </head>
 <body>
     <div class="laptop-html">
@@ -1991,9 +1992,7 @@
                             <span>Filters</span>
                             <span>(2)</span>
                             <span>
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="#007185">
-                                    <path d="M7 10l5 5 5-5z"/>
-                                </svg>
+                                <!--     -->
                             </span>
                         </div>
                     </div>
@@ -2007,30 +2006,29 @@
 
 
         <div class="mobile-main">
-
-
-
             <div class="card-container">
-                <div class="each-card">
-                    <div class="img-container">
-                        <div class="best-seller">
-                            <div>
-                                <span>Best seller</span>
+                <div class="each-card-mobile">
+                    <div class="img-wrap">
+                        <div class="img-container">
+                            <div class="best-seller">                        
+                                <span>Best seller</span>                          
                             </div>
-                        </div>
-                        <div class="img-wrapper">
-                            <div class="img">
-                                <img src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
-                            </div>
+                            <span class="img-wrapper">
+                                <div class="img">
+                                    <img src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                                </div>
+                            </span>
                         </div>
                     </div>
                     
                     <div class="contents">
                         <div class="contents-wrapper">
                             <div class="contents-heading">
-                                <a href=""><span>
+                                <a href="">
+                                    <span>
                                     Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger
-                                </span></a>
+                                    </span>
+                                </a>
                             </div>
                             <div class="rating">
                                 <div class="rating-first-line">
@@ -2075,7 +2073,7 @@
 
 
             <div class="card-container">
-                <div class="each-card">
+                <div class="each-card-mobile">
                     <div class="img-container">
                         <div class="best-seller">
                             <div>
@@ -2148,41 +2146,58 @@
 
         <div class="mobile-footer">
             <div class="footer-top">
-                <span>Back to top</span>
+                <i class="fa fa-caret-up"></i>
+                <span>TOP OF PAGE</span>
             </div>
-            <div class="list-in-footer">
-                <ul>
-                    <li>Amazon.in</li>
-                    <li>Your Orders</li>
-                    <li>Amazon App Download</li>
-                    <li>Your Account</li>
-                    <li>Returns</li>
-                    <li>Sell</li>
-                    <li>Your Amazon.in</li>
-                    <li>Amazon Pay</li>
-                    <li>Your Lists</li>
-                    <li>Your Recently Viewed Items</li>
-                    <li>Recalls and Product Safety Alerts</li>
-                    <li>Customer Service</li>
+            <div class="list-in-footer-div">
+                <ul class="list-in-footer left-list">
+                    <li class="left-li"><span>Amazon.in</span></li>
+                    <li class="left-li"><span>Your Orders</span></li>
+                    <li class="left-li"><span>Amazon App Download</span></li>
+                    <li class="left-li"><span>Your Account</span></li>
+                    <li class="left-li"><span>Returns</span></li>
+                    <li class="left-li"><span>Sell</span></li>
+                </ul>
+
+                <ul class="list-in-footer right-list">
+                    <li class="right-li"><span>Your Amazon.in</span></li>
+                    <li class="right-li"><span>Amazon Pay</span></li>
+                    <li class="right-li"><span>Your Lists</span></li>
+                    <li class="right-li"><span>Your Recently Viewed Items</span></li>
+                    <li class="right-li"><span>Recalls and Product Safety Alerts</span></li>
+                    <li class="right-li"><span>Customer Service</span></li>
                 </ul>
             </div>
 
+
             <div class="mob-footer-bottom">
                 <div class="language-mobile">
+                    <div class="globe">
+                        <a href="">
+                            <div>
 
+                            </div>
+                            <span>
+                                English
+                            </span>
+                        </a>
+                    </div>
                 </div>
                 <div class="customer-mob">
-                    <span>Already a customer? Sign in</span>
+                    <span>Already a customer?</span> <span>Sign in</span>
+              
                 </div>
-                <div class="copy-right-footer">
-                    <ul>
-                        <li><a href="">Conditions of Use & Sale</a></li>
-                        <li><a href="">Privacy Notice</a></li>
-                        <li><a href="">Interest-Based Ads</a></li>
+                <!--  -->
+                <ul class="copy-list">
+                    <li><a href="">Conditions of Use</a></li>
+                    <li><a href="">Privacy Notice</a></li>
+                    <li><a href="">Interest-Based Ads</a></li>
 
-                    </ul>
-                    <span>© 1996-2025, Amazon.com, Inc. or its affiliates</span>
+                </ul>
+                <div class="copy-right-footer">
+                    © 1996-2025, Amazon.com, Inc. and its affiliates
                 </div>
+               
             </div>
         </div>
     </div> 
