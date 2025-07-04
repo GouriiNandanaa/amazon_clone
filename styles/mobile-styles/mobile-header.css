@@ -1,0 +1,472 @@
+:root {
+    --regular: Amazon Ember, Arial, sans-serif;
+    --background-header-1: #131921;
+    --down-arrow-grey: rgb(167, 172, 178);
+    --amazon-orange: rgb(240, 136, 4);
+    --heading-black: rgb(15, 17, 17);
+    --amazon-blue: rgb(33, 98, 161);
+}
+
+.mob-header{
+    position: relative;
+    z-index: 208;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    min-width: 200px;
+    height: 142px;
+}
+
+
+.mob-header-first-line{
+    display: flex;
+    position: relative;
+    z-index: inherit;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid #232f3e;
+    background-color: #232f3e;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.mob-header-first-line .left-side-mob{
+    flex-shrink: 0;
+    flex-flow: row nowrap;
+    display: flex;
+    position: relative;
+    width: auto;
+}
+
+.mob-header-first-line .left-side-mob .three-stripe{
+    float: left;
+    padding: 14px 14px;
+}
+
+.mob-header-first-line .left-side-mob a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -20px -378px;
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    text-indent: -500px;
+    overflow: hidden;
+}
+
+.mob-header-first-line .left-side-mob .mob-amazon-logo {
+    margin-left: auto;
+    position: relative;
+    float: left;
+    z-index: 20;
+    margin-top: 13px;
+}
+.mob-header-first-line .left-side-mob .mob-amazon-logo a{
+    clear: both;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.mob-header-first-line .left-side-mob .mob-amazon-logo a .logo-amazon{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    float: left;
+    text-indent: -500px;
+    padding: 10px 40px 0 20px;
+    background-position: -185px -236px;
+    width: 80px;
+    height: 28px;
+}
+
+.mob-header-first-line .left-side-mob .mob-amazon-logo a .remaining-text{
+    display: block;
+    background-position: -160px -209px;
+    width: 14px;
+    height: 16px;
+    float: left;
+    margin: 1px 0 0 1px;
+    font-size: 13.5px;
+    color: #fff;
+    line-height: 14px;
+    padding-top: 1px;
+}
+
+.mob-header-first-line .right-side-mob{
+    flex-flow: row-reverse wrap;
+    overflow: hidden;
+    min-width: 60px;
+    display: flex;
+    position: relative;
+    width: auto;
+}
+
+.mob-header-first-line .right-side-mob .sign-in{
+    order: 2;
+}
+
+.mob-header-first-line .right-side-mob .sign-in .sign-in-a{
+    display: flex;
+    margin-left: 5px;
+    line-height: 48px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.mob-header-first-line .right-side-mob .man-icon{
+    order: 1;
+    display: flex;
+    padding: 9px 0 12px 4px;
+    position: relative;
+    width: 39px;
+
+    margin-right: -5px;
+}
+
+.mob-header-first-line .right-side-mob .man-icon i{
+    order: 2;
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    height: 25px;
+    background-position: -141px -300px;
+    width: 35px;
+    height: 27px;
+    display: block;
+}
+
+.mob-header-first-line .right-side-mob .cart{
+    padding-left: 7px;
+    order: 0;
+    display: flex;
+    padding: 10px 18px 11px 12px;
+}
+
+.mob-header-first-line .right-side-mob .cart div{
+    order: 2;
+    width: 37px;
+}
+
+.mob-header-first-line .right-side-mob .cart div .svg-cart{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    background-position: -10px -240px;
+    width: 37px;
+    height: 27px;
+    display: block;
+    position: static;
+}
+
+.mob-header-first-line .right-side-mob .cart div .svg-cart span{
+    padding: 0 0 0 17px;
+    font-size: 16px;
+    color: #f08804;
+    display: block;
+    line-height: 10px;
+    font-family: 'bold';
+}
+
+
+/* second-line */
+
+.mob-header-second-line {
+    width: 100%;
+    display: flex;
+    height: 50px;
+}
+
+.mob-header-second-line form{
+    background: #232f3e;
+    display: block;
+    padding: 2px 10px 5px 10px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin-bottom: 0;
+    flex: 1;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.mob-header-second-line form .nav-fill{
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mob-header-second-line form .nav-fill .input-wrapper{
+    border-radius: 8px 12px 12px 8px;
+    height: 44px;
+    margin: 0;
+    position: relative;
+    background: #fff;   
+}
+
+.mob-header-second-line form .nav-fill .input-wrapper input{
+    border-radius: 8px 12px 12px 8px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    direction: ltr;
+    display: block;
+    padding: 0 95px 0 10px;
+    color: #000;
+    font-size: 15px;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .5), inset 0 1px 0 0 rgba(0, 0, 0, .07);
+}
+
+.mob-header-second-line form .nav-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    width: auto;
+    font-size: 12px;
+    line-height: 1em;
+}
+.mob-header-second-line form .nav-right .submit-holder{
+    border-radius: 8px;
+    position: relative;
+    height: 44px;
+    width: 50px;
+    margin: 2px 10px 5px 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.mob-header-second-line form .nav-right .submit-holder input{
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 10;
+    border: 0;
+    background-color: transparent;
+    text-indent: -1000px;
+    line-height: 1px;
+    background-color: #febd69;
+
+    color: #000;
+}
+
+.mob-header-second-line form .nav-right .submit-holder i{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    pointer-events: none;
+    background-position: -73px -239px;
+    width: 27px;
+    height: 25px;
+    
+    z-index: 999;
+    color: #000 !important;
+}
+
+
+.mob-header-third-line{
+    height: 44px;
+    padding: 12px 10px 12px 10px;
+    width: 100%;
+    float: left;
+    background-color: rgb(55, 71, 90);
+
+}
+.mob-header-third-line .pin-holder{
+    float: left;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.mob-header-third-line .pin-holder .icon{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    background-position: -75px -340px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.mob-header-third-line .pin-holder .contents{
+    float: left;
+    height: 20px;
+    display: inline-block;
+    width: 85%;
+}
+
+.mob-header-third-line .pin-holder .contents span{
+    float: left;
+    clear: both;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFF;
+    font-family: inherit;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mob-header-below .mob-header-forth-line{
+    width: 100%;
+    height: 48px;
+
+    margin-bottom: 8px;
+    min-height: 0;
+    height: 48px;
+    display: flex
+;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(17, 17, 17, .15);
+    padding: 0;
+    transition: .2s linear;
+}
+
+.mob-header-below .mob-header-forth-line .left-forth{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .one{
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 12px;
+    margin-right: 4px;
+
+    transform: translateY(1px);
+
+         
+}
+  
+body > div.mobile-html > div.mob-header-below > div.mob-header-forth-line > div.left-forth > div.one > span.prime-holder{
+    /* width: 42px;
+    height: 20px; */
+    /* background-color: red; */
+    margin-right: 4px;
+ 
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .one .prime-holder span{
+    
+    /* width: 4.2rem;
+    height: 1.2rem;
+    background-position: -27.7rem -22.4rem; */
+    display: inline-block;
+    background-image: url(https://m.media-amazon.com/images/S/sash/IAiggOMz$2G$3oR.png);
+    width: 42px;
+    height: 12px;
+    background-position: -277px -224px;
+    background-size: 512px 256px;
+    
+    
+    /* margin-bottom: -.175rem; */
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .one .toggle-holder{
+    content: url(https://m.media-amazon.com/images/S/sash/J86UBa3MBZb1CXv.svg);
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .two{
+    margin-right: 8px;
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .two .samsung-holder{
+
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .two .samsung-holder a{
+    
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: #e7f4f5;
+    border: 1px solid #c7e4e8;
+}
+
+.mob-header-below .mob-header-forth-line .left-forth .two .samsung-holder a span{
+    font-size: 14px !important;
+    line-height: 20px !important;
+    max-width: 115px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(33,98,161);
+}
+
+.mob-header-below .mob-header-forth-line .right-forth{
+        float: right !important;
+}
+
+.mob-header-below .mob-header-forth-line .right-forth div{   
+    
+}
+
+.mob-header-below .mob-header-forth-line .right-forth div div{   
+    display: flex;
+    padding: 12px 28px;
+}
+
+.mob-header-below .mob-header-forth-line .right-forth div div span{   
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: center;
+    color: #007185 !important;
+
+}
+.mob-header-below .mob-header-forth-line .right-forth div div span:nth-child(1){
+
+}
+
+.mob-header-below .mob-header-forth-line .right-forth div div span:nth-child(2){
+    margin-left: 6px;
+}
+      
+.mob-header-below .mob-header-forth-line .right-forth div div span:nth-child(3){
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+    margin-left: 6px;
+    transform: rotate(0);
+    transform-origin: center 40%;
+    transition: transform .25s ease-in-out;
+    color: #007185 !important;
+}  
+
+.mob-header-below .mob-header-fifth-line{
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mob-header-below .mob-header-fifth-line span{
+    font-size: 12px !important;
+    line-height: 15px !important;
+    color: rgb(86, 89, 89);
+    transform: translateY(-3px);
+
+}  
