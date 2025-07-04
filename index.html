@@ -19,6 +19,8 @@
 
 
     <link rel="stylesheet" href="styles/mobile-styles/general.css">
+    <link rel="stylesheet" href="styles/mobile-styles/mobile-header.css">
+    <link rel="stylesheet" href="styles/mobile-styles/mobile-card.css">
 </head>
 <body>
     <div class="laptop-html">
@@ -1893,7 +1895,7 @@
         </div>
     </footer>
     </div>
-
+ 
     <div class="mobile-html">
 
 
@@ -1901,44 +1903,53 @@
         <div class="mob-header">
             <div class="mob-header-first-line">
                 <div class="left-side-mob">
-                    <a href="">
+                    <a class="three-stripe" href="">
                         <i></i>
                     </a>
                     <div class="mob-amazon-logo">
-                        <span class="logo-amazon"></span>
-                        <span class="remaining-text">.in</span>
+                        <a href="">
+                            <span class="logo-amazon"></span>
+                            <span class="remaining-text">.in</span>
+                        </a>
                     </div>
                 </div>
 
                 <div class="right-side-mob">
                     <div class="sign-in">
-                        <a href="">Sign in ›</a>
+                        <a class="sign-in-a" href="">Sign in ›</a>
                     </div>
 
-                    <div class="man-icon">
-                        <a href=""><i></i></a>
-                    </div>
+                    
+                    <a href="" class="man-icon"><i></i></a>
+                 
 
-                    <div class="cart">
+                    <a href="" class="cart">
                         <div class="cart-image-holder">
-                            <span>0</span>
-                            <div class="svg-cart">
+                            
+                            <span class="svg-cart">
+                                <span class="cart-text">0</span>
 
-                            </div>
+                            </span>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
             <div class="mob-header-second-line">
-                <div class="search-holder">
-                    <div class="input-wrapper">
-                        <input type="text" placeholder="Search Amazon.in">
+                <form action="">
+                    <div class="nav-fill">
+                        <div class="input-wrapper">
+                            
+                            <input type="text" placeholder="Search Amazon.in">
+                        </div>
                     </div>
-                    <div class="button-holder">
-                       <i></i>
+                    <div class="nav-right">
+                       <div class="submit-holder">
+                            <input type="submit">
+                            <i></i>
+                       </div>
                     </div>
-                </div>
+                </form>
             </div>
 
 
@@ -1954,19 +1965,23 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="mob-header-below">
             <div class="mob-header-forth-line">
                 <div class="left-forth">
                     <div class="one">
-                        <div class="prime-holder">
-                            <i></i>
-                        </div>
-                        <div class="toggle-holder">
+                        <span class="prime-holder">
+                            <span></span>
+                        </span>
+                        <span class="toggle-holder">
 
-                        </div>
+                        </span>
                     </div>
                     <div class="two">
-                        <a href=""><span>Samsung</span></a>
+                        <div class="samsung-holder">
+                            <a href=""><span>Samsung</span></a>
+                        </div>
                     </div>
                 </div>
 
@@ -1976,7 +1991,9 @@
                             <span>Filters</span>
                             <span>(2)</span>
                             <span>
-                                >
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="#007185">
+                                    <path d="M7 10l5 5 5-5z"/>
+                                </svg>
                             </span>
                         </div>
                     </div>
@@ -1990,6 +2007,9 @@
 
 
         <div class="mobile-main">
+
+
+
             <div class="card-container">
                 <div class="each-card">
                     <div class="img-container">
@@ -1998,53 +2018,56 @@
                                 <span>Best seller</span>
                             </div>
                         </div>
-
-                        <div class="img">
-                            <img src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                        <div class="img-wrapper">
+                            <div class="img">
+                                <img src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                            </div>
                         </div>
                     </div>
                     
                     <div class="contents">
-                        <div class="contents-heading">
-                            <a href=""><span>
-                                Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger
-                            </span></a>
-                        </div>
-                        <div class="rating">
-                            <div class="rating-first-line">
-                                <span>4.0</span>
-                                <div class="five-star">
-                                    <!-- for 5 star -->
+                        <div class="contents-wrapper">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger
+                                </span></a>
+                            </div>
+                            <div class="rating">
+                                <div class="rating-first-line">
+                                    <span>4.0</span>
+                                    <div class="five-star">
+                                        
+                                    </div>
+                    
+                                    <span>
+                                        (4.3K)
+                                    </span>
                                 </div>
-                
-                                <span>
-                                    (4.3K)
-                                </span>
+                                <span class="brought">5K+ bought in past month</span>
                             </div>
-                            <span class="brought">5K+ bought in past month</span>
-                        </div>
-                            
-                        <div class="content-price">
-                            <span>&#8377;</span>
-                            <span>6,249</span>
-                            <span>M.R.P:</span>
-                            <span>&#8377;9,999</span>
-                            <span>(38% off)</span>
-                        </div>
-                            
-                        <div class="prime-icon"> 
-                            <div class="prime-icon-image">
-                                <!-- icon -->
+                                
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>6,249</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;9,999</span>
+                                <span>(38% off)</span>
                             </div>
-                            <div class="second-line">
-                                <span>FREE delivery</span>
-                                <span>Sun, 6 Jul</span>
+                                
+                            <div class="prime-icon"> 
+                                <div class="prime-icon-image">
+                                    
+                                </div>
+                                <div class="second-line">
+                                    <span>FREE delivery</span>
+                                    <span>Sun, 6 Jul</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="button-container">
-                            <button class="btn add-to-cart">
-                                Add to cart
-                            </button>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -2059,57 +2082,60 @@
                                 <span>Best seller</span>
                             </div>
                         </div>
-
-                        <div class="img">
-                            <img src="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_SX148_SY213_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                        <div class="img-wrapper">
+                            <div class="img">
+                                <img src="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_SX148_SY213_FMwebp_QL65_.jpg" alt="Samsung Galaxy M05 ">
+                            </div>
                         </div>
                     </div>
                     <div class="contents">
-                        <div class="contents-heading">
-                            <a href=""><span>
-                                Samsung Original 25W Type-C Travel Adaptor Without Cable, White
-                            </span></a>
-                        </div>
+                        <div class="contents-wrapper">
+                            <div class="contents-heading">
+                                <a href=""><span>
+                                    Samsung Original 25W Type-C Travel Adaptor Without Cable, White
+                                </span></a>
+                            </div>
 
-                        <div class="tag-phone">
-                            <span>Cellular Phones</span>
-                        </div>
+                            <div class="tag-phone">
+                                <span>Cellular Phones</span>
+                            </div>
 
-                        <div class="rating">
-                            <div class="rating-first-line">
-                                <span>4.4</span>
-                                <div class="five-star">
-                                    <!-- for 5 star -->
+                            <div class="rating">
+                                <div class="rating-first-line">
+                                    <span>4.4</span>
+                                    <div class="five-star">
+                                        
+                                    </div>
+                    
+                                    <span>
+                                        (39.3K)
+                                    </span>
                                 </div>
-                
-                                <span>
-                                    (39.3K)
-                                </span>
+                                <span class="brought">10K+ bought in past month</span>
                             </div>
-                            <span class="brought">10K+ bought in past month</span>
-                        </div>
-                            
-                        <div class="content-price">
-                            <span>&#8377;</span>
-                            <span>999</span>
-                            <span>M.R.P:</span>
-                            <span>&#8377;1,699</span>
-                            <span>(41% off)</span>
-                        </div>
-                            
-                        <div class="prime-icon"> 
-                            <div class="prime-icon-image">
-                                <!-- icon -->
+                                
+                            <div class="content-price">
+                                <span>&#8377;</span>
+                                <span>999</span>
+                                <span>M.R.P:</span>
+                                <span>&#8377;1,699</span>
+                                <span>(41% off)</span>
                             </div>
-                            <div class="second-line">
-                                <span>FREE delivery</span>
-                                <span>Sun, 6 Jul</span>
+                                
+                            <div class="prime-icon"> 
+                                <div class="prime-icon-image">
+                                    
+                                </div>
+                                <div class="second-line">
+                                    <span>FREE delivery</span>
+                                    <span>Sun, 6 Jul</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="button-container">
-                            <button class="btn add-to-cart">
-                                Add to cart
-                            </button>
+                            <div class="button-container">
+                                <button class="btn add-to-cart">
+                                    Add to cart
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -2159,6 +2185,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 </body>
     

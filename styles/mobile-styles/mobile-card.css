@@ -1,0 +1,13 @@
+.mobile-main .each-card{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mobile-main .each-card .contents{
+    display: block;
+    width: calc(.58333 * (100vw - 8px));
+}
+
+.mobile-main .each-card .img-container{
+    
+}

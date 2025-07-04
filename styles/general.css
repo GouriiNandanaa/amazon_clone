@@ -12,9 +12,14 @@
 .mobile-html{
     display: none;
 }
+.laptop-html{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 * {
     box-sizing: border-box;
 }
+
 
 body,
 p,
