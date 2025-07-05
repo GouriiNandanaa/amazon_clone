@@ -176,7 +176,7 @@ header .search-container .search-input input {
     height: 38px;
     width: auto;
     border: none;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
 
 }
  
@@ -197,6 +197,8 @@ header .search-container .icon-container {
     /* margin-left: auto; */
     border-radius: 0 4px 4px 0;
     border-left: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+    
 }
 /* right header */
 .right-header{
@@ -480,7 +482,7 @@ body > div.laptop-html > header > div.header2 > ul > li:nth-child(6){
     height: 42px;
     border-bottom: 1px solid rgb(204, 204, 204);
     border-top: 1px solid rgb(204, 204, 204);
-    box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 5px #ddd;
     justify-content: space-between;
     padding-left: 12px;
     padding-right: 20px;

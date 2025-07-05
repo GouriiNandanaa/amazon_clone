@@ -1,0 +1,92 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2025-07-05 14:57:44
+count workspace : c:\Users\hp\OneDrive\Desktop\amazon-clone
+total files : 26
+total code lines : 3063
+total comment lines : 290
+total blank lines : 766
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|           2277|            269|            631|     74|
+   |            .md|              2|              0|              2|  0.065|
+   |          .html|            766|             21|            133|     25|
+   |           .svg|             18|              0|              0|   0.59|
+   -------------------------------------------------------------------------
+assets\font\AmazonEmber_Bd.ttf, it is a binary file.
+assets\font\AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_ (1).woff2, it is a binary file.
+assets\font\pDxWAF1pBB0dzGB (2).woff2, it is a binary file.
+assets\font\WOnTLzkiaEccV7F (1).woff2, it is a binary file.
+assets\images\all-flags.png, it is a binary file.
+assets\images\all-logo.png, it is a binary file.
+assets\images\amazon-icon.png, it is a binary file.
+assets\images\cart.svg, code is 9, comment is 0, blank is 0.
+assets\images\icons-star.png, it is a binary file.
+assets\images\icons.png, it is a binary file.
+assets\images\lang-logo.svg, code is 9, comment is 0, blank is 0.
+assets\images\prime.png, it is a binary file.
+demo.html, code is 366, comment is 5, blank is 69.
+index.html, code is 400, comment is 16, blank is 64.
+README.md, code is 2, comment is 0, blank is 2.
+styles\1-header.css, code is 397, comment is 48, blank is 97.
+styles\2-main-sidebar.css, code is 336, comment is 38, blank is 100.
+styles\3-main-right-section.css, code is 231, comment is 25, blank is 58.
+styles\4-ad-help.css, code is 192, comment is 9, blank is 51.
+styles\5-footer.css, code is 277, comment is 35, blank is 71.
+styles\general.css, code is 57, comment is 2, blank is 23.
+styles\mobile-styles\general.css, code is 8, comment is 0, blank is 31.
+styles\mobile-styles\mobile-card-fault.css, code is 0, comment is 66, blank is 1.
+styles\mobile-styles\mobile-card.css, code is 217, comment is 20, blank is 81.
+styles\mobile-styles\mobile-footer.css, code is 143, comment is 8, blank is 42.
+styles\mobile-styles\mobile-header.css, code is 419, comment is 18, blank is 76.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2025-07-05 14:59:59
+count workspace : c:\Users\hp\OneDrive\Desktop\amazon-clone
+total files : 26
+total code lines : 3063
+total comment lines : 290
+total blank lines : 766
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|           2277|            269|            631|     74|
+   |            .md|              2|              0|              2|  0.065|
+   |          .html|            766|             21|            133|     25|
+   |           .svg|             18|              0|              0|   0.59|
+   -------------------------------------------------------------------------
+assets\font\AmazonEmber_Bd.ttf, it is a binary file.
+assets\font\AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_ (1).woff2, it is a binary file.
+assets\font\pDxWAF1pBB0dzGB (2).woff2, it is a binary file.
+assets\font\WOnTLzkiaEccV7F (1).woff2, it is a binary file.
+assets\images\all-flags.png, it is a binary file.
+assets\images\all-logo.png, it is a binary file.
+assets\images\amazon-icon.png, it is a binary file.
+assets\images\cart.svg, code is 9, comment is 0, blank is 0.
+assets\images\icons-star.png, it is a binary file.
+assets\images\icons.png, it is a binary file.
+assets\images\lang-logo.svg, code is 9, comment is 0, blank is 0.
+assets\images\prime.png, it is a binary file.
+demo.html, code is 366, comment is 5, blank is 69.
+index.html, code is 400, comment is 16, blank is 64.
+README.md, code is 2, comment is 0, blank is 2.
+styles\1-header.css, code is 397, comment is 48, blank is 97.
+styles\2-main-sidebar.css, code is 336, comment is 38, blank is 100.
+styles\3-main-right-section.css, code is 231, comment is 25, blank is 58.
+styles\4-ad-help.css, code is 192, comment is 9, blank is 51.
+styles\5-footer.css, code is 277, comment is 35, blank is 71.
+styles\general.css, code is 57, comment is 2, blank is 23.
+styles\mobile-styles\general.css, code is 8, comment is 0, blank is 31.
+styles\mobile-styles\mobile-card-fault.css, code is 0, comment is 66, blank is 1.
+styles\mobile-styles\mobile-card.css, code is 217, comment is 20, blank is 81.
+styles\mobile-styles\mobile-footer.css, code is 143, comment is 8, blank is 42.
+styles\mobile-styles\mobile-header.css, code is 419, comment is 18, blank is 76.
+===============================================================================

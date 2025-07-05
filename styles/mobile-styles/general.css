@@ -1,4 +1,16 @@
+@media screen and (max-width:1099px) {
+    .category-nav {
+        padding-left: 1px;
+    }
+    
+    header .header1 .logo {
+        padding: 1px 8px 7px 6px;
+    }
 
+    header .right-header .cart{
+        margin: 0 0px 0 2px;
+    }
+}
 @media screen and (max-width:768px) {
     .laptop-html{
         display: none;
@@ -7,33 +19,5 @@
         display: block;
     }
 
-
-
-
-
-
-
-
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
+

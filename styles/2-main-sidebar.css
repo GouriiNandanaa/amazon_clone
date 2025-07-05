@@ -219,7 +219,13 @@ body > div.laptop-html > main > div > div > div.sidebar-top > div.brands.main-he
     position: absolute;
     top: 0;
     left: 0;
+
+    width: 300px;
+  height: 4px;
+  background: #ccc; 
+  border-radius: 2px;
 }
+
 
 
 body > div.laptop-html > main >div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(1) {
@@ -251,15 +257,126 @@ body > div.laptop-html > main >div>div>div.sidebar-top>div.item-price.main-headi
 }
 
 body > div.laptop-html > main >div>div>div.sidebar-top>div.item-price.main-heading>ul>li:nth-child(2) {
-    height: auto;
-    display: flex;
+    /* height: 50px; */
+    /* height: auto; */
+    /* display: flex;
     padding-bottom: 2px;
     margin-bottom: 4px;
-    justify-content: space-between;
+    justify-content: space-between; */
     /* need to change the code here */
-    height: 50px;
+    height: unset;
+      height: 50px;
+    
     margin-bottom: 4px;
+     margin-right: 12px;
 }
+
+.slide-go-li .slide-go{
+  
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    /* margin-bottom: 4px; */
+    
+   
+    width: 100%;
+}
+
+.slide-go-li .slide-go .slide{
+        padding: 10px 0;
+    flex: 1;
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+        direction: ltr;
+}
+
+.first-slider{
+        margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+.first-slider input{
+       position: absolute;
+    background-color: transparent;
+    color: #bbbfbf;
+    z-index: 1; 
+        appearance: none;
+    pointer-events: none;
+    width: 100%;
+    height: 4px;
+    outline: 0;
+        transition: all .1s linear;
+    line-height: 19px;
+        margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+
+    
+   
+  border-radius: 2px;
+}
+
+
+.first-slider input::-webkit-slider-thumb, .second-slider input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 28px;
+  width: 28px;
+  background-color: white;
+  border-radius: 50%;
+  border: 8px solid teal;
+box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* margin-top: -10px;  */
+}
+.second-slider{
+        margin: 0;
+    padding: 0;
+    display: flex
+;
+}
+
+.second-slider input{
+        z-index: 0;
+    background: linear-gradient(to right, rgb(187, 191, 191) 0%, rgb(187, 191, 191) 0%, rgb(0, 113, 133) 0%, rgb(0, 113, 133) 100%, rgb(187, 191, 191) 100%, rgb(187, 191, 191) 100%);
+        color: #007185;
+            appearance: none;
+    pointer-events: none;
+    width: 100%;
+    height: 4px;
+        outline: 0;
+            transition: all .1s linear;
+    line-height: 19px;
+        margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.slide-go-li .slide-go .go{
+    margin-left: 8px;
+    margin-bottom: 0;
+    
+}
+
+.slide-go-li .slide-go .go .go-text-container{
+    background-color:  #fff;
+    border: 0.5px solid;
+    border-color: #888c8c;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    border-radius: 100px;
+    /* height: 30px; */
+}
+
+.slide-go-li .slide-go .go span span{
+    font-family: 'regular';
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+} 
 
 /* deals */
 
