@@ -59,7 +59,19 @@
     padding: 0 4px;
     height: 100%;
     align-self: flex-start;
+    position:relative;
 
+}
+
+.mobile-main .card-container .each-card-mobile .img-container::after{
+    margin-left: -4px;
+    margin-right: -4px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    position: absolute;
+    inset: 0;
 }
 
 
@@ -99,12 +111,13 @@
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img {
-    height: 170px;
+    max-height: 170px;
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img img {
     height: 100%;
     width: 100%;
+    /* object-fit: cover; */
 }
 
 
@@ -221,7 +234,7 @@
     color: var(--light-font-grey);
     text-decoration: line-through;
     position: relative;
-    left: -5.25px;
+    left: -8.25px;
 }
 
 .mobile-html .content-price > span:nth-child(5) {
@@ -240,20 +253,20 @@
     padding-top: 4px;
 }
 /* resetting */
-.prime-icon{
+ .mobile-html .prime-icon{
     margin-top: 0px;
 }
-.prime-icon .prime-icon-image{
+.mobile-html .prime-icon .prime-icon-image{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.prime-icon .second-line {
+.mobile-html .prime-icon .second-line {
     height: unset;
     /* margin-top: 2.453px; */
     
     column-gap: 3px;
 }
-.button-container button{
+ .mobile-html .button-container button{
     margin-top: 0;
     line-height: unset;
 }
@@ -291,7 +304,7 @@
     align-items: flex-end;
     margin-top: 4px;
 }
-
+  
 .mobile-html .button-container button{
     font-size: 13px;
     height: 32px;
@@ -299,3 +312,6 @@
     display: block;
     width: 100%;
 }
+
+
+/* Typing : 33wpm */

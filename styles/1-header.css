@@ -27,6 +27,8 @@ header .header1 {
     width: 100%;
     background-color: var(--background-header-1);
     color: white;
+
+
 }
 
 /* logo */
@@ -34,6 +36,7 @@ header .header1 {
 header .header1 .logo {
     padding: 1px 8px 7px 17px;
     margin: 1px;
+    margin-right: 3px;
     height: 50px;
     display: flex;
 }
@@ -42,7 +45,8 @@ header .header1 .logo .logo-amazon {
     margin-top: 11px;
     width: 98px;
     height: 34px;
-    background: url(../assets/images/all-logo.png);
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB546381437_.png);
+    background-size: 350px;
     background-position: -9px -125px;
     display: inline-block;
     background-repeat: repeat-x;
@@ -55,6 +59,9 @@ header .header1 .logo .remaining-text {
     line-height: 14px;
     text-size-adjust: 100%;
     margin: 16.5px 0 0 1px;
+    display: block;
+    background-position: -270px -109px;
+    transform: translateY(0.25px);
 }
 
 /* pincode */
@@ -64,6 +71,9 @@ header .header1 .pincode {
     padding: 0px 9px;
     margin: 5px 2px 5px 0px;
     column-gap: 3px;
+    height: 50px;
+
+    align-items: center;
 }
 
 header .header1 .pincode .pincode-icon {
@@ -71,8 +81,10 @@ header .header1 .pincode .pincode-icon {
     height: 18px;
     background: url(/assets/images/all-logo.png);
     background-position: -71px -378px;
-    margin-top: 8px;    
+    margin-top: 8px; 
+    color: white;   
 }          
+
 
 header .header1 .pincode .pincode-text p {
     color: #ccc;
@@ -82,6 +94,10 @@ header .header1 .pincode .pincode-text p {
     line-height: 14px;
     height: 14px;
     font-weight: 400;
+    /* float: left;
+    clear: both; */
+    /* display: inline-block; */
+    
 }
 
 header .header1 .pincode .pincode-text h3 {
@@ -89,7 +105,9 @@ header .header1 .pincode .pincode-text h3 {
     padding-right: 0;
     font-size: 14px;
     line-height: 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-family: 'bold';
+
 }
 
 /* search */
@@ -116,31 +134,58 @@ header .search-container .dropdown-div {
     height: 40px !important;
     padding-left: 5px;
     border-radius: 4px 0 0 4px;
+    display: flex;
+    align-items: center;
 }
 
-header .search-container .dropdown-div select {
+header .search-container .dropdown-div .dropdown-class {
     height: 35px;
     cursor: pointer;
     line-height: 35px;
     color: #555;
     font-size: 12px;
     line-height: 33px;
-    margin-right: 21px;
+    margin-right: 8px;
     margin-left: 5px;
     min-width: 19px;
     background-color: #e6e6e6;
     border: none;
     height: 100%;
+
+    
 }
 
+header .search-container .dropdown-div .dropdown-class span{
+    display: inline-block;
+    margin-top: 3px;
+
+}
+
+header .search-container .dropdown-div .dropdown-class i{
+    margin-left: 3px;
+    transform: translateY(1px);
+}
 header .search-container .search-input {
     width: auto;
+    margin-right: auto;
+
+
 }
 
 header .search-container .search-input input {
     height: 38px;
-    width: 100%;
+    width: auto;
     border: none;
+    border-top: 1px solid white;
+
+}
+ 
+header .search-container .search-input input::placeholder{
+    font-size: 15px;
+    padding-left: 6px;
+    padding-top: 2px;
+
+    transform: translateY(-1px);
 }
 
 header .search-container .icon-container {
@@ -149,8 +194,9 @@ header .search-container .icon-container {
     background: rgb(254, 189, 105);
     background-image: url(/assets/images/all-logo.png);
     background-position: 2px -280px;
-    margin-left: auto;
+    /* margin-left: auto; */
     border-radius: 0 4px 4px 0;
+    /* border-left: 1px solid grey; */
 }
 /* right header */
 .right-header{
@@ -168,6 +214,8 @@ header .right-header .language {
     padding: 6px 0px 7px 0;
     margin: 0 1px;
     white-space: nowrap;
+
+    transform: translate(9px, 14px);
 }
 
 header .right-header .language .flag-div {
@@ -178,6 +226,8 @@ header .right-header .language .flag-div {
     background-size: 194px 295px;
     padding-right: 2px;
     padding-bottom: 1px;
+    margin-right: 2px;
+    scale: 0.9;
 }
 
 header .right-header .language .lang-dropdown .select {
@@ -191,10 +241,16 @@ header .right-header .language .lang-dropdown .select {
     border: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 4px;
+
+    /* transform: translateY(-8px); */
 }
 
 header .right-header .language  i {
+    font-size: 13px;
     color: var(--down-arrow-grey);
+    margin-left: 2px;
+    transform: translateY(3px);
 }
 
 /* sign in and return  */
@@ -226,6 +282,8 @@ header .right-header .language  i {
 
 .two-line-text .second-line i {
     color: var(--down-arrow-grey);
+    margin-left: 5px;
+    /* font-size: 10px; */
 }
 
 /* sign in dropdown */
