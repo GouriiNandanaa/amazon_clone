@@ -82,20 +82,25 @@ footer .mid1 .nav-link ul li {
 footer .mid1 .nav-link ul li a {
     display: inline;
     font-size: 14px;
-   
+
     color: #dddddd;
 }
-footer .mid1-wrapper .bottom-line-footer{
+
+footer .mid1-wrapper .bottom-line-footer {
     border-top: 1px solid #3a4553;
     margin-top: 40px;
+    height: 0px;
+    width: 100%;
+    /* margin-left: -50px; */
+
 }
 
 
 /* body > footer > div.mid1-wrapper > div > div.make-money-with-us.nav-access.nav-link > ul > li:nth-child(2){
     height: ;
-} */ 
-       
-footer .mid2{
+} */
+
+footer .mid2 {
     height: 68px;
     margin: 10px 60px;
 
@@ -103,21 +108,21 @@ footer .mid2{
     justify-content: center;
 }
 
-footer .mid2 .amazon-footer{
-        padding: 0 .6em;
-            list-style-type: none;
+footer .mid2 .amazon-footer {
+    padding: 0 .6em;
+    list-style-type: none;
     display: inline-block;
 }
 
-footer .mid2 .amazon-footer div{
+footer .mid2 .amazon-footer div {
     text-align: center;
     max-width: 1000px;
     margin: 30px auto 11px;
     line-height: 0;
-} 
+}
 
-footer .mid2 .amazon-footer div div{
-    
+footer .mid2 .amazon-footer div div {
+
     width: 76px;
     height: 27px;
     margin: 0 auto;
@@ -126,7 +131,7 @@ footer .mid2 .amazon-footer div div{
     background-repeat: repeat-x;
 }
 
-footer  .logo-footer-container{
+footer .logo-footer-container {
     vertical-align: top;
     margin: 18px 0;
     margin-left: 70px;
@@ -135,8 +140,8 @@ footer  .logo-footer-container{
     display: inline-block;
 }
 
-.navfooter{
-        /* font-family: inherit;
+.navfooter {
+    /* 
     color: #004B91;
         display: inline-block !important;
     border: 1px solid #848688;
@@ -147,12 +152,12 @@ footer  .logo-footer-container{
     font-size: 12px;
     font-family: inherit;
     color: #DDD;
-    
+
     text-align: center;
     line-height: 18px;
 }
 
-.language-footer{
+.language-footer {
     font-family: inherit;
     color: #DDD;
     text-align: center;
@@ -166,39 +171,42 @@ footer  .logo-footer-container{
     text-align: center;
     line-height: 18px;
 }
-  
-.globe-footer{
+
+.globe-footer {
     background-image: url(/assets/images/all-flags.png);
     background-size: 194px 295px;
     width: 15px;
     height: 15px;
     background-position: -76px -51px;
-    /* position: relative;
+    position: relative;
     top: 2px;
-    left: 0; */
+    left: 0;
     display: inline-block;
-    margin-left: 0.338em;
-        color: #004B91;
+    /* margin-left: 0.338em; */
+    /* this */
+    color: #004B91;
     /* padding-left: 0.6em; */
-}       
-.english-footer{
+}
+
+.english-footer {
     color: #CCC;
     list-style-type: none;
     display: inline-block;
-    padding: 0 0.6em 0 0.6em;
+    padding: 0 19.99px 0 0.6em;
     margin: 0;
-    margin-right: 0.6em;
+    /* margin-right: 0.6em; */
+    /* this */
 }
 
-.language-footer button{
+.language-footer button {
     background-image: url(/assets/images/all-flags.png);
     background-size: 194px 295px;
-            width: 12px;
+    width: 12px;
     height: 16px;
     background-position: -79px -79px;
-    /* position: relative;
+    position: relative;
 
-    left: 9px; */  
+    left: 9px;
     border: none;
     margin: 0;
     font-size: 100%;
@@ -208,7 +216,7 @@ footer  .logo-footer-container{
 }
 
 
-.country-footer{
+.country-footer {
     display: inline-block !important;
     border: 1px solid #848688;
     border-radius: 3px;
@@ -216,7 +224,8 @@ footer  .logo-footer-container{
     font-size: 13px;
     margin-right: 4px;
 }
-.country-footer .flag-footer{
+
+.country-footer .flag-footer {
     background-image: url(/assets/images/all-flags.png);
     background-size: 194px 295px;
     background-position: -18px -36px;
@@ -226,13 +235,13 @@ footer  .logo-footer-container{
     display: inline-block;
     width: 18px;
     position: relative;
-    /* top: 2px; */
+    top: 2px;
     height: 12px;
     color: #004B91;
 
 }
 
-.flag-name-footer{
+.flag-name-footer {
     color: #CCC;
     padding: 0 0.6em 0 0.3em;
     list-style-type: none;
@@ -247,29 +256,29 @@ footer  .logo-footer-container{
 
 
 
-.footer-bottom{
+.footer-bottom {
     background-color: #131A22;
     padding: 30px 0px;
     margin: 30px 0 0;
 }
 
-.footer-bottom .ul-bottom-condainer{
+.footer-bottom .ul-bottom-condainer {
     margin: 0 auto;
-        max-width: 1000px;
+    max-width: 1000px;
     font-size: 12px;
 }
 
-.footer-bottom .ul-bottom-condainer ul{
+.footer-bottom .ul-bottom-condainer ul {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     margin: 0 0 0 18px;
     margin-bottom: 15px;
     margin-left: 0;
-    
+
 }
 
-.footer-bottom .ul-bottom-condainer ul .last-footer-text{
+.footer-bottom .ul-bottom-condainer ul .last-footer-text {
     width: 15%;
     font-size: 12px !important;
     padding: 0 .75em;
@@ -281,20 +290,21 @@ footer  .logo-footer-container{
     margin: 0;
 }
 
-.footer-bottom .ul-bottom-condainer ul .last-footer-text a{
+.footer-bottom .ul-bottom-condainer ul .last-footer-text a {
     color: #ddd;
 }
 
-.footer-bottom .ul-bottom-condainer ul .last-footer-text a h5{
+.footer-bottom .ul-bottom-condainer ul .last-footer-text a h5 {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     padding: 0;
     margin: 0;
     color: #DDD;
+
 }
 
-.footer-bottom .ul-bottom-condainer ul .last-footer-text a span{
+.footer-bottom .ul-bottom-condainer ul .last-footer-text a span {
     color: #999;
     list-style-type: none;
     display: inline-block;
@@ -304,16 +314,16 @@ footer  .logo-footer-container{
     line-height: 110%;
 }
 
-.footer-bottom .ul-bottom-condainer ul .last-footer-space{
+.footer-bottom .ul-bottom-condainer ul .last-footer-space {
     width: 4%;
     display: inline;
     padding: 0;
-        word-wrap: break-word;
+    word-wrap: break-word;
     margin: 0;
 }
 
-.footer-bottom .ul-bottom-condainer ul:nth-child(2){
-    margin-bottom: 0px;  
+.footer-bottom .ul-bottom-condainer ul:nth-child(2) {
+    margin-bottom: 0px;
 }
 
 /* .footer-bottom .ul-bottom-condainer ul:nth-child(2)  .last-footer-text h5{
@@ -321,7 +331,7 @@ footer  .logo-footer-container{
     top: 1px;
 } */
 
-footer .copy-right-footer{
+footer .copy-right-footer {
     font-size: 12px;
     background-color: #131A22;
     max-width: 100%;
@@ -332,7 +342,8 @@ footer .copy-right-footer{
     /* height: 76px; */
     line-height: 18px;
 }
-footer .copy-right-footer ul{
+
+footer .copy-right-footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -341,13 +352,13 @@ footer .copy-right-footer ul{
     line-height: 18px;
     font-size: 12px;
 
-   
-    transform: translateY(-1px);
+    /* this is already commented out */
+    /* transform: translateY(-1px); */
 }
 
-footer .copy-right-footer ul li{
+footer .copy-right-footer ul li {
     border-left: 0;
-    display: inline;    
+    display: inline;
     word-wrap: break-word;
     margin: 0;
     font-size: 12px;
@@ -355,19 +366,20 @@ footer .copy-right-footer ul li{
     white-space: normal;
 }
 
-footer .copy-right-footer ul li a{
+footer .copy-right-footer ul li a {
     color: #DDD;
     padding: 0 7.2px;
     white-space: normal;
-    
+
 }
 
-footer .copy-right-footer span{
+footer .copy-right-footer span {
     display: inline-block;
-    transform: translateY(-1px);
+    /* transform: translateY(-1px); */
+    /* dont uncomment this */
 
     font-family: inherit;
-    white-space: normal;    
+    white-space: normal;
     padding: 0 .6em;
     font-size: 12px;
 }
@@ -376,7 +388,7 @@ footer .copy-right-footer span{
 
 /* pixel adjustments */
 
-body > div.laptop-html > footer > div.footer-bottom > div > ul:nth-child(2) > li:nth-child(7) > a > span > span{
+body>div.laptop-html>footer>div.footer-bottom>div>ul:nth-child(2)>li:nth-child(7)>a>span>span {
     display: inline-block;
     transform: translateY(-1px);
 }

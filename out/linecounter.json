@@ -1,0 +1,403 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\hp\\OneDrive\\Desktop\\amazon-clone",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-07-05 14:57:44",
+            "filesum": 26,
+            "codesum": 3063,
+            "commentsum": 290,
+            "blanksum": 766,
+            "statistics": {
+                ".css": {
+                    "code": 2277,
+                    "comment": 269,
+                    "blank": 631
+                },
+                ".md": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".html": {
+                    "code": 766,
+                    "comment": 21,
+                    "blank": 133
+                },
+                ".svg": {
+                    "code": 18,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "filename": "assets\\font\\AmazonEmber_Bd.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_ (1).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\pDxWAF1pBB0dzGB (2).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\WOnTLzkiaEccV7F (1).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\all-flags.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\all-logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\amazon-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "assets\\images\\cart.svg"
+                },
+                {
+                    "filename": "assets\\images\\icons-star.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\icons.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "assets\\images\\lang-logo.svg"
+                },
+                {
+                    "filename": "assets\\images\\prime.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 69,
+                    "code": 366,
+                    "comment": 5,
+                    "filename": "demo.html"
+                },
+                {
+                    "blank": 64,
+                    "code": 400,
+                    "comment": 16,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 97,
+                    "code": 397,
+                    "comment": 48,
+                    "filename": "styles\\1-header.css"
+                },
+                {
+                    "blank": 100,
+                    "code": 336,
+                    "comment": 38,
+                    "filename": "styles\\2-main-sidebar.css"
+                },
+                {
+                    "blank": 58,
+                    "code": 231,
+                    "comment": 25,
+                    "filename": "styles\\3-main-right-section.css"
+                },
+                {
+                    "blank": 51,
+                    "code": 192,
+                    "comment": 9,
+                    "filename": "styles\\4-ad-help.css"
+                },
+                {
+                    "blank": 71,
+                    "code": 277,
+                    "comment": 35,
+                    "filename": "styles\\5-footer.css"
+                },
+                {
+                    "blank": 23,
+                    "code": 57,
+                    "comment": 2,
+                    "filename": "styles\\general.css"
+                },
+                {
+                    "blank": 31,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "styles\\mobile-styles\\general.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 66,
+                    "filename": "styles\\mobile-styles\\mobile-card-fault.css"
+                },
+                {
+                    "blank": 81,
+                    "code": 217,
+                    "comment": 20,
+                    "filename": "styles\\mobile-styles\\mobile-card.css"
+                },
+                {
+                    "blank": 42,
+                    "code": 143,
+                    "comment": 8,
+                    "filename": "styles\\mobile-styles\\mobile-footer.css"
+                },
+                {
+                    "blank": 76,
+                    "code": 419,
+                    "comment": 18,
+                    "filename": "styles\\mobile-styles\\mobile-header.css"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2025-07-05 14:59:59",
+            "filesum": 26,
+            "codesum": 3063,
+            "commentsum": 290,
+            "blanksum": 766,
+            "statistics": {
+                ".css": {
+                    "code": 2277,
+                    "comment": 269,
+                    "blank": 631
+                },
+                ".md": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".html": {
+                    "code": 766,
+                    "comment": 21,
+                    "blank": 133
+                },
+                ".svg": {
+                    "code": 18,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "filename": "assets\\font\\AmazonEmber_Bd.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_ (1).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\pDxWAF1pBB0dzGB (2).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\font\\WOnTLzkiaEccV7F (1).woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\all-flags.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\all-logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\amazon-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "assets\\images\\cart.svg"
+                },
+                {
+                    "filename": "assets\\images\\icons-star.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\icons.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "assets\\images\\lang-logo.svg"
+                },
+                {
+                    "filename": "assets\\images\\prime.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 69,
+                    "code": 366,
+                    "comment": 5,
+                    "filename": "demo.html"
+                },
+                {
+                    "blank": 64,
+                    "code": 400,
+                    "comment": 16,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 97,
+                    "code": 397,
+                    "comment": 48,
+                    "filename": "styles\\1-header.css"
+                },
+                {
+                    "blank": 100,
+                    "code": 336,
+                    "comment": 38,
+                    "filename": "styles\\2-main-sidebar.css"
+                },
+                {
+                    "blank": 58,
+                    "code": 231,
+                    "comment": 25,
+                    "filename": "styles\\3-main-right-section.css"
+                },
+                {
+                    "blank": 51,
+                    "code": 192,
+                    "comment": 9,
+                    "filename": "styles\\4-ad-help.css"
+                },
+                {
+                    "blank": 71,
+                    "code": 277,
+                    "comment": 35,
+                    "filename": "styles\\5-footer.css"
+                },
+                {
+                    "blank": 23,
+                    "code": 57,
+                    "comment": 2,
+                    "filename": "styles\\general.css"
+                },
+                {
+                    "blank": 31,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "styles\\mobile-styles\\general.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 66,
+                    "filename": "styles\\mobile-styles\\mobile-card-fault.css"
+                },
+                {
+                    "blank": 81,
+                    "code": 217,
+                    "comment": 20,
+                    "filename": "styles\\mobile-styles\\mobile-card.css"
+                },
+                {
+                    "blank": 42,
+                    "code": 143,
+                    "comment": 8,
+                    "filename": "styles\\mobile-styles\\mobile-footer.css"
+                },
+                {
+                    "blank": 76,
+                    "code": 419,
+                    "comment": 18,
+                    "filename": "styles\\mobile-styles\\mobile-header.css"
+                }
+            ]
+        }
+    ]
+}
