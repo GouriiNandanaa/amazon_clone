@@ -117,7 +117,8 @@
     height: auto;
     margin: 0 auto;
     object-fit: contain;
-    background: rgb(248,248,248);
+    /* background: rgb(248,248,248); */
+    /* check here you dumb */
     /* background-color: gray; */
 
 }

@@ -99,8 +99,19 @@
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img-wrapper {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* overflow: hidden; */
+    /* padding-right: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;
+    position: relative; */
+    /* height: 100%; */
+
+    flex-grow: 1;
+
     padding-right: 8px;
     padding-left: 8px;
     display: flex;
@@ -108,17 +119,33 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /* height: 100%; */
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img {
+    /* max-height: 170px;
+    width: 100%; */
     max-height: 170px;
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img img {
+    display: block;
+    /* max-width: 100%; */
+    /* height: auto;
+    margin: 0 auto; */
+    /* max-width: 100%;
+    border: 0;
+    object-fit: contain;
+    vertical-align: top; */
+
+    /* from here ownwards */
     height: 100%;
     width: 100%;
-    object-fit: contain;
+
+    /* object-fit: fill; */
 }
 
 
@@ -229,7 +256,7 @@
     /* position: relative;
     left: -4.75px; */
     margin-left: -4px;
-
+ 
 }
 
 .mobile-html .content-price>span:nth-child(4) {
@@ -290,11 +317,17 @@
 .savings {
     font-size: 12px !important;
     line-height: 16px !important;
-     margin-bottom: 3px;
+     margin-bottom: 5px;
 }
 
-.saving-span-container {
-   
+body > div.mobile-html > div.mob-header-below > div.mobile-main > div:nth-child(2) > div > div.contents > div > div.prime-icon{
+    padding-top: 5px;
+}
+body > div.mobile-html > div.mob-header-below > div.mobile-main > div:nth-child(3) > div > div.contents > div > div.prime-icon{
+    padding-top: 5px;
+}
+body > div.mobile-html > div.mob-header-below > div.mobile-main > div:nth-child(3) > div > div.contents > div > div.prime-icon > div.prime-icon-image {
+   transform: translateY(1px); 
 }
 
 .saving-span-container span {
@@ -308,7 +341,7 @@
 }
 
 .mobile-html .prime-icon {
-    padding-top: 6px;
+    padding-top: 4px;
 }
 
 .mobile-html .prime-icon .prime-icon-image {
@@ -352,3 +385,30 @@
 
 
 /* Typing : 33wpm */
+
+/* cellular-phones */
+
+.cellular-mobile{
+    margin-bottom: 1px;
+}
+.cellular-mobile div{
+
+}
+
+.cellular-mobile div span{
+    margin-top: 4px;
+    letter-spacing: 0.1px;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+    padding-top: 1px !important;
+    padding-bottom: 2px !important;
+    background-color: #f0f2f2;
+    border: 1px solid #f5f5f5;
+    
+    /* font-family: 'bold'; */
+}
+
+
+
