@@ -168,7 +168,7 @@ header .search-container .dropdown-div .dropdown-class i{
 header .search-container .search-input {
     width: auto;
     margin-right: auto;
-    border-left: 0.5px grey solid;
+    /* border-left: 0.5px grey solid; */
 
 }
 
@@ -196,8 +196,9 @@ header .search-container .icon-container {
     background-position: 2px -280px;
     /* margin-left: auto; */
     border-radius: 0 4px 4px 0;
-    border-left: 0.5px solid grey;
-    border-left: 0.5px solid grey;
+    /* border-left: 0.5px solid grey; */
+    /* border-left: 0.5px solid grey; */
+    /* margin-left: -0.5px; */
     
 }
 /* right header */
@@ -254,6 +255,7 @@ header .right-header .language .lang-dropdown .select {
 header .right-header .language  i {
     font-size: 13px;
     color: var(--down-arrow-grey);
+    scale: 0.8;
     margin-left: 2px;
     transform: translateY(1px);
 }
@@ -288,6 +290,9 @@ header .right-header .language  i {
 .two-line-text .second-line i {
     color: var(--down-arrow-grey);
     margin-left: 5px;
+    scale: 0.8;
+    transform: translateY(2px);
+    /* margin-bottom: -3px; */
     /* font-size: 10px; */
 }
 
@@ -366,7 +371,7 @@ header .header2 {
     top: 60px; */
     margin-top: 60px;
     background-color: rgb(35, 47, 62);
-    height: 39px;
+    height: 40px;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -378,7 +383,7 @@ header .header2 {
 .category-nav {
     display: flex;
     padding-left: 11px;
-    height: 39px;
+    height: 40px;
     flex-wrap: wrap;
 }
 
@@ -424,7 +429,7 @@ header .header2 ul li a i {
 }
 
 /* prime with arrow */
-body > div.laptop-html > header > div.header2 > ul > li:nth-child(6){    
+body > div.laptop-html > header > div.header2 > ul > li:nth-child(7){    
     padding-right: 5px;
 }
 
@@ -434,6 +439,7 @@ body > div.laptop-html > header > div.header2 > ul > li:nth-child(6){
 .third-row {
     /* position: relative;
     top: 99px; */
+    margin-top: -1px;
     height: 50px;
     border-top: 1px solid rgba(0, 0, 0, .17);
     border-bottom: 1px solid rgba(0, 0, 0, .1);

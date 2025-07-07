@@ -183,13 +183,15 @@ body > div.laptop-html > main > div > div > div.sidebar-top > div.brands.main-he
     width: 16px;
     margin: 0;
     margin-right: 5px;
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.002); */
+    transform: translateY(-2px);
 }
 
 /* item condition */
 
 .item-condition div ul li {
     height: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
 
     display: flex;
     align-items: center;
@@ -199,6 +201,10 @@ body > div.laptop-html > main > div > div > div.sidebar-top > div.brands.main-he
     font-size: 14px;
     line-height: 16px;
 
+}
+
+.item-condition div ul li:nth-child(2){
+    margin-bottom: 16px;
 }
 
 /* item price */

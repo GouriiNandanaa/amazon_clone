@@ -91,6 +91,7 @@
 }
 .each-card .img-wrapper{
     position: relative;
+    padding-top: 24px;
 }
 
 .each-card .img-wrapper::after{
@@ -231,8 +232,8 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
 body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(5){
     font-size: 14px;
     line-height: 20px;
-    /* position: relative;
-    left: 1px; */
+    position: relative;
+    left: -0.5px;
 }
 
 .content-price{
