@@ -8,13 +8,13 @@
     --light-font-grey: rgb(86, 89, 89);
     --amazon-yellow: #ffd814;
 }
- 
+
 
 .mobile-main {
     margin-left: 4px;
     margin-right: 4px;
     /* margin-bottom: 8px; */
-    
+
 }
 
 .each-card-mobile {
@@ -22,8 +22,8 @@
     border: none;
     padding: 0;
 
-    
-    
+
+
 
 }
 
@@ -39,7 +39,7 @@
     display: flex;
     /* padding-left: 4px;
     padding-right: 4px; */
-     
+
 
 }
 
@@ -59,11 +59,11 @@
     padding: 0 4px;
     height: 100%;
     align-self: flex-start;
-    position:relative;
+    position: relative;
 
 }
 
-.mobile-main .card-container .each-card-mobile .img-container::after{
+.mobile-main .card-container .each-card-mobile .img-container::after {
     margin-left: -4px;
     margin-right: -4px;
     content: "";
@@ -100,7 +100,7 @@
 
 .mobile-main .card-container .each-card-mobile .img-container .img-wrapper {
     flex-grow: 1;
-
+    /* overflow: hidden; */
     padding-right: 8px;
     padding-left: 8px;
     display: flex;
@@ -108,6 +108,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    /* height: 100%; */
 }
 
 .mobile-main .card-container .each-card-mobile .img-container .img {
@@ -117,7 +118,7 @@
 .mobile-main .card-container .each-card-mobile .img-container .img img {
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: contain;
 }
 
 
@@ -146,7 +147,7 @@
     font-size: 14px !important;
     line-height: 20px !important;
     -webkit-line-clamp: 3;
-    color:rgb(15, 17, 17);
+    color: rgb(15, 17, 17);
 
 
 
@@ -172,12 +173,13 @@
     background-size: 512px 512px;
 }
 
-.mobile-main .card-container .each-card-mobile .contents-wrapper .rating{
+.mobile-main .card-container .each-card-mobile .contents-wrapper .rating {
     line-height: 16px;
     max-height: 36px;
     /* align-items: center; */
 }
-.mobile-main .card-container .each-card-mobile .contents-wrapper .rating-first-line span:nth-child(3){
+
+.mobile-main .card-container .each-card-mobile .contents-wrapper .rating-first-line span:nth-child(3) {
     font-size: 12px;
     line-height: 16px;
     color: rgb(86, 89, 89);
@@ -187,13 +189,13 @@
 
 
 
-}     
+}
 
-.mobile-main .card-container .each-card-mobile .contents-wrapper .rating-first-line{
+.mobile-main .card-container .each-card-mobile .contents-wrapper .rating-first-line {
     height: 16px;
 }
-     
-.mobile-main .card-container .each-card-mobile .rating .brought{
+
+.mobile-main .card-container .each-card-mobile .rating .brought {
     font-size: 12px !important;
     line-height: 16px !important;
     /* height: 16px; */
@@ -204,108 +206,143 @@
 }
 
 
-.mobile-html .content-price > span:nth-child(1) {
+.mobile-html .content-price>span:nth-child(1) {
     font-size: 13px;
     position: relative;
     top: -5px;
     /* left: 0; */
 }
 
-.mobile-html .content-price > span:nth-child(2) {
+.mobile-html .content-price>span:nth-child(2) {
     font-size: 22px;
     position: relative;
     left: -4.25px;
 }
 
-.mobile-html .content-price > span:nth-child(3) {
+.mobile-html .content-price>span:nth-child(3) {
     font-size: 12px;
     line-height: 16px;
     /* letter-spacing: -0.2px; */
     display: inline-block;
     color: rgb(86, 89, 89);
-    position: relative;
-    left: -4.75px;
-    
+    font-family: 'mobile-special';
+    /* position: relative;
+    left: -4.75px; */
+    margin-left: -4px;
+
 }
 
-.mobile-html .content-price > span:nth-child(4) {
+.mobile-html .content-price>span:nth-child(4) {
     font-size: 12px;
     line-height: 16px;
     color: var(--light-font-grey);
+    font-family: 'mobile-special';
+
     text-decoration: line-through;
-    position: relative;
-    left: -8.25px;
+    /* position: relative;
+    left: -8.25px; */
 }
 
-.mobile-html .content-price > span:nth-child(5) {
+.mobile-html .content-price>span:nth-child(5) {
     font-size: 12px;
     line-height: 16px;
-    color: var(--light-font-grey);
-    position: relative;
+    /* color: var(--light-font-grey); */
+    font-family: 'mobile-special';
+
+    /* position: relative; */
     /* left: 1px; */
-    left: -5px;
-    
+    /* left: -5px; */
+
 }
-.mobile-html .content-price{
+
+.mobile-html .content-price {
     margin-top: 0;
     max-height: unset;
     min-height: 42px;
     padding-top: 4px;
 }
+
 /* resetting */
- .mobile-html .prime-icon{
+.mobile-html .prime-icon {
     margin-top: 0px;
 }
-.mobile-html .prime-icon .prime-icon-image{
+
+.mobile-html .prime-icon .prime-icon-image {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .mobile-html .prime-icon .second-line {
     height: unset;
     /* margin-top: 2.453px; */
-    
+
     column-gap: 3px;
 }
- .mobile-html .button-container button{
+
+.mobile-html .button-container button {
     margin-top: 0;
     line-height: unset;
 }
 
 
 /* reset end */
-  
 
-.mobile-html .prime-icon{
+.savings {
+    font-size: 12px !important;
+    line-height: 16px !important;
+     margin-bottom: 3px;
+}
+
+.saving-span-container {
+   
+}
+
+.saving-span-container span {
+    height: auto;
+    color: rgb(86, 89, 89);
+    font-family: 'mobile-special';
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    line-height: 1.3em !important;
+}
+
+.mobile-html .prime-icon {
     padding-top: 6px;
 }
 
-.mobile-html .prime-icon .prime-icon-image{
+.mobile-html .prime-icon .prime-icon-image {
     margin-bottom: 4px;
 }
 
-.mobile-html .prime-icon .second-line{
+.mobile-html .prime-icon .second-line {
     max-height: 16px;
+    margin-bottom: 4px;
 }
 
-.mobile-html .prime-icon .second-line span:nth-child(1){
+.mobile-html .prime-icon .second-line span:nth-child(1) {
     font-size: 12px;
     line-height: 16px;
 }
 
-.mobile-html .prime-icon .second-line span:nth-child(2){
+.mobile-html .prime-icon div:nth-child(2){
+    margin-top: 5px;
+}
+
+.mobile-html .prime-icon .second-line span:nth-child(2) {
     font-size: 12px;
     line-height: 16px;
 }
 
-.mobile-html .button-container{
+.mobile-html .button-container {
     height: 44px;
     padding-top: 8px;
     display: flex;
     align-items: flex-end;
     margin-top: 4px;
 }
-  
-.mobile-html .button-container button{
+
+.mobile-html .button-container button {
     font-size: 13px;
     height: 32px;
     padding: 5px 13px 7px 13px;

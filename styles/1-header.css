@@ -163,7 +163,8 @@ header .search-container .dropdown-div .dropdown-class span{
 
 header .search-container .dropdown-div .dropdown-class i{
     margin-left: 3px;
-    transform: translateY(1px);
+    scale: 1;
+    transform: translateY(-1px);
 }
 header .search-container .search-input {
     width: auto;
