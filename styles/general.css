@@ -80,3 +80,8 @@ option {
     font-family: 'italic';
     src: url(/assets/font/WOnTLzkiaEccV7F\ \(1\).woff2);
 }
+
+@font-face {
+    font-family: 'mobile-special';
+    src: url(/assets/font/Dv1WQ5DdeMS5qP7.woff2);
+}

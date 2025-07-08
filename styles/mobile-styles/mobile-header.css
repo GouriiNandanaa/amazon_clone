@@ -133,6 +133,7 @@
     width: 35px;
     height: 27px;
     display: block;
+    
 }
 
 .mob-header-first-line .right-side-mob .cart{
@@ -272,6 +273,8 @@
     
     z-index: 999;
     color: #000 !important;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 
@@ -329,13 +332,19 @@
     margin-bottom: 8px;
     min-height: 0;
     height: 48px;
-    display: flex
-;
+    display: flex;
     align-items: center;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(17, 17, 17, .15);
     padding: 0;
     transition: .2s linear;
+
+
+        position: sticky;
+    top: 0;
+    z-index: 99999;
+    overflow-x: hidden;
+    transition: transform .2s linear;
 }
 
 .mob-header-below .mob-header-forth-line .left-forth{
@@ -428,6 +437,7 @@ body > div.mobile-html > div.mob-header-below > div.mob-header-forth-line > div.
     display: flex;
     padding: 12px 28px;
     align-items: center;
+    box-shadow: inset 1px 0 0 0 #e6e6e6;
 }
 
 .mob-header-below .mob-header-forth-line .right-forth div div span{   
