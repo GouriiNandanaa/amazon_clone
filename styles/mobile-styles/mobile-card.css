@@ -121,6 +121,35 @@
     position: relative;
 }
 
+.plus-icon{
+    height: 48px;
+    width: 48px;
+    z-index: 3999;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: -48px;
+    left: 4px;
+}
+.plus-icon .plus-icon-container{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    /* background-color: blue; */
+    box-shadow: 0 0 4px 0 rgba(17, 17, 17, .3);
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+
+
+.plus-icon .plus-icon-container img{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
 .mobile-main .card-container .each-card-mobile .img-container .img {
     /* max-height: 170px;
     width: 100%; */

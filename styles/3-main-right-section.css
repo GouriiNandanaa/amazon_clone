@@ -8,7 +8,7 @@
     --light-font-grey: rgb(86, 89, 89);
     --amazon-yellow: #ffd814;
 }
-           
+
 .right-section {
     color: var(--heading-black);
     width: calc(0.75 * (100vw - 28px));
@@ -21,10 +21,10 @@
 
 }
 
-.right-section a span{
+.right-section a span {
     color: var(--heading-black);
 }
-            
+
 .right-section-margin {
     margin: 0 -4px 0 -4px;
 
@@ -34,7 +34,8 @@
     padding: 0 4px 0 4px;
     margin-bottom: 4px;
 }
-.top-section div{
+
+.top-section div {
     height: 20px;
 }
 
@@ -89,12 +90,13 @@
     position: relative;
 
 }
-.each-card .img-wrapper{
+
+.each-card .img-wrapper {
     position: relative;
     padding-top: 24px;
 }
 
-.each-card .img-wrapper::after{
+.each-card .img-wrapper::after {
     margin-left: -4px;
     margin-right: -4px;
     content: "";
@@ -137,7 +139,7 @@
     line-clamp: 4;
 }
 
-.contents-heading span{
+.contents-heading span {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -145,11 +147,11 @@
     text-overflow: ellipsis;
 }
 
-.rating{
+.rating {
     padding-top: 4px;
 }
 
-.rating .five-star{
+.rating .five-star {
     display: inline-block;
     width: 80px;
     height: 18px;
@@ -163,7 +165,7 @@
 
 }
 
-.rating .da{
+.rating .da {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -173,47 +175,51 @@
 
     position: relative;
     top: 1px;
-} 
+}
 
-.rating .count{
+.rating .count {
     color: var(--amazon-blue);
     font-size: 14px;
     line-height: 20px;
-    
+
     padding-left: 3px;
 }
 
-.rating .brought{
-    color: var(--light-font-grey); 
+.rating .brought {
+    color: var(--light-font-grey);
     font-size: 14px !important;
     line-height: 20px !important;
 }
-.rating .rating-first-line{
+
+.rating .rating-first-line {
     display: flex;
     align-items: center;
 }
-.content-price{
+
+.content-price {
     max-height: 55px;
-}  
-body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(1){
+}
+
+body>div.laptop-html>main>div.main-contents>div.right-section>div.right-section-margin.with-card>div>div.contents>div.content-price>span:nth-child(1) {
     font-size: 13px;
-    
+
     position: relative;
     top: -10px;
-    left:0;
+    left: 0;
     /* top: -73em; */
 
-    
+
 
 }
-body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(2){
+
+body>div.laptop-html>main>div.main-contents>div.right-section>div.right-section-margin.with-card>div>div.contents>div.content-price>span:nth-child(2) {
     font-size: 28px;
     position: relative;
     left: -4.25px;
-   
+
 }
 
-body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(3){
+body>div.laptop-html>main>div.main-contents>div.right-section>div.right-section-margin.with-card>div>div.contents>div.content-price>span:nth-child(3) {
     font-size: 14px;
     line-height: 20px;
     color: var(--light-font-grey);
@@ -221,7 +227,7 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
     left: -4.75px;
 }
 
-body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(4){
+body>div.laptop-html>main>div.main-contents>div.right-section>div.right-section-margin.with-card>div>div.contents>div.content-price>span:nth-child(4) {
     font-size: 13px;
     line-height: 20px;
     color: var(--light-font-grey);
@@ -230,30 +236,31 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
     left: -5.25px;
 }
 
-body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div > div.contents > div.content-price > span:nth-child(5){
+body>div.laptop-html>main>div.main-contents>div.right-section>div.right-section-margin.with-card>div>div.contents>div.content-price>span:nth-child(5) {
     font-size: 14px;
     line-height: 20px;
     position: relative;
     left: -0.5px;
 }
 
-.content-price{
+.content-price {
     margin-top: 8px;
 
 }
 
-.content-price div{
+.content-price div {
     display: flex;
     justify-content: space-between;
 
 }
-.discount-main{
+
+.discount-main {
     display: flex;
     align-items: center;
     margin-bottom: 13.453px;
 }
 
-.discount-main span{
+.discount-main span {
     /* background-color: red; */
     display: inline-block;
     height: 1.3em;
@@ -263,21 +270,25 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
     color: var(--light-font-grey);
     /* margin-top: -52px; */
 }
-.prime-icon{
+
+.prime-icon {
     margin-top: 9px;
 }
-.prime-icon .prime-icon-image{
+
+.prime-icon .prime-icon-image {
     width: 53px;
     height: 15px;
     background-image: url(/assets/images/prime.png);
-    background-position: -181px -128px;    background-size: 512px 256px;
+    background-position: -181px -128px;
+    background-size: 512px 256px;
     background-repeat: no-repeat;
 
     margin-top: 4px;
     margin-bottom: 2.45px;
-       
+
 }
-.prime-icon .second-line{
+
+.prime-icon .second-line {
     height: 20px;
     /* margin-top: 2.453px; */
 
@@ -286,12 +297,12 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
     column-gap: 4px;
 }
 
-.prime-icon .second-line span{
+.prime-icon .second-line span {
     font-size: 14px;
     line-height: 18px;
 }
 
-.prime-icon .second-line span:nth-child(2){
+.prime-icon .second-line span:nth-child(2) {
     font-size: 14px;
     line-height: 18px;
     /* font-weight: 700;
@@ -299,23 +310,62 @@ body > div.laptop-html > main > div.main-contents > div.right-section > div.righ
     font-family: 'bold';
 }
 
-.button-container{
+.button-container {
     padding-top: 4px;
     height: 40px;
     /* margin-bottom: 8px; */
 }
 
-.button-container button{
+.button-container button {
 
     font-family: 'button-font';
 
     margin-top: 4px;
     font-size: 13px;
     line-height: 30px;
-    
+
     padding: 1px 13px 1px 13px;
     background-color: var(--amazon-yellow);
     border-radius: 36px;
     border: none;
 }
 
+.button-below-laptop {
+    padding-top: 4px;
+}
+
+.button-below-first-line {}
+
+.button-below-first-line span:nth-child(1) {
+
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: rgb(86, 89, 89);
+    display: block;
+}
+
+.second-line-button-below {
+    margin-top: -1px;
+}
+
+.second-line-button-below span:nth-child(1) {
+    display: inline-block;
+    margin-top: -1px;
+    color: rgb(15, 17, 17);
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.second-line-button-below span:nth-child(2) {
+
+    display: inline-block;
+    margin-top: -1px;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: rgb(33, 98, 161);
+    margin-left: 1px;
+}
+
+body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div:nth-child(2) > div.contents > div.prime-icon > div:nth-child(2), body > div.laptop-html > main > div.main-contents > div.right-section > div.right-section-margin.with-card > div:nth-child(3) > div.contents > div.prime-icon > div:nth-child(2){
+    margin-top: -1px;
+}

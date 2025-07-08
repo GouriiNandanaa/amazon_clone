@@ -342,7 +342,7 @@
 
         position: sticky;
     top: 0;
-    z-index: 20;
+    z-index: 99999;
     overflow-x: hidden;
     transition: transform .2s linear;
 }
